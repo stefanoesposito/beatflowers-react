@@ -29,8 +29,6 @@ function App() {
   }, []);
   let currentYear = new Date().getFullYear();
 
-  const dateProva = new Date("2023-05-18");
-  console.log(dateProva);
   return (
       <>
         <Fragment>
@@ -349,7 +347,7 @@ function App() {
                         {gigs?.map((gig, i) => {
                           const dateNowParsed = new Date();
                           const dateGigPlus = new Date(gig.dateGig);
-                          dateGigPlus.setDate(dateGigPlus.getDate() + 1);
+                          dateGigPlus.setDate(dateGigPlus.getDate());
                           let month, day;
                           switch (selectedLanguage) {
                             case "en":
