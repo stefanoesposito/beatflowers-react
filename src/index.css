@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dateCalendar {
+  width: 90px;
+  height: 110px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.rowMonthCalendar {
+  width: 100%;
+  background-color: #ef0000;
+  font-size: 14px;
+}
+
+.dayNumber {
+  color: #000;
+  font-size: 60px;
+  margin-top: -10px;
+}
+
+.weekDay {
+  color: #000;
+  margin-top: -18px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
