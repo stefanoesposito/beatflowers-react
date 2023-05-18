@@ -417,7 +417,7 @@ function App() {
 
                           const dayNumber = new Date(gig.dateGig).getDate();
 
-                          if (dateNowParsed > dateGigPlus) {
+                          if (dateNowParsed <= dateGigPlus) {
                             return (
                                 <DateRow
                                     key={i}
