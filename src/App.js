@@ -7,6 +7,7 @@ import DateRow from "./components/DateRow";
 import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./components/LanguageSwitcher";
+import { addSmoothScroll, clickScroll } from './scripts/customScripts'
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -28,6 +29,11 @@ function App() {
     getData();
   }, []);
   let currentYear = new Date().getFullYear();
+
+  useEffect(() => {
+    clickScroll(window.jQuery)
+    addSmoothScroll(window.jQuery)
+  }, []);
 
   return (
       <>

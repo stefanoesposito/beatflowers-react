@@ -79,6 +79,36 @@ const Footer = ({currentYear}) => {
                                 <a href="#section_6" className="site-footer-link">{t('menu.Contacts')}</a>
                             </li>
                         </ul>
+
+                        <ul className="social-icon d-flex justify-content-lg-start">
+                            <li className="social-icon-item">
+                                <a href="https://facebook.com/people/Beat-FlowerS/100063526721631" target="_blank"
+                                   rel="noopener noreferrer" className="social-icon-link">
+                                    <span className="bi-facebook"></span>
+                                </a>
+                            </li>
+
+                            <li className="social-icon-item">
+                                <a href="https://instagram.com/beat.flowers" target="_blank" rel="noopener noreferrer"
+                                   className="social-icon-link">
+                                    <span className="bi-instagram"></span>
+                                </a>
+                            </li>
+
+                            <li className="social-icon-item">
+                                <a href="https://www.youtube.com/@beat.flowers" target="_blank" rel="noopener noreferrer"
+                                   className="social-icon-link">
+                                    <span className="bi-youtube"></span>
+                                </a>
+                            </li>
+
+                            <li className="social-icon-item">
+                                <a href="https://www.tiktok.com/@beat.flowers" target="_blank" rel="noopener noreferrer"
+                                   className="social-icon-link">
+                                    <span className="bi-tiktok"></span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
