@@ -24,7 +24,7 @@ const resources = {
             "Home": "Home",
             "About": "About",
             "Band": "Band",
-            "Schedule": "Schedule",
+            "Live": "Live",
             "Videos": "Videos",
             "Contacts": "Contacts"
         },
@@ -59,7 +59,7 @@ const resources = {
             "Home": "Home",
             "About": "About",
             "Band": "Band",
-            "Schedule": "Date",
+            "Live": "Live",
             "Videos": "Video",
             "Contacts": "Contatti"
         },
@@ -95,7 +95,7 @@ const resources = {
                 "Home": "Accueil",
                 "About": "À propos",
                 "Band": "Groupe",
-                "Schedule": "Calendrier",
+                "Live": "Live",
                 "Videos": "Vidéos",
                 "Contacts": "Contacts"
             },
@@ -130,7 +130,7 @@ const resources = {
                 "Home": "Inicio",
                 "About": "Acerca de",
                 "Band": "Banda",
-                "Schedule": "Agenda",
+                "Live": "En vivo",
                 "Videos": "Videos",
                 "Contacts": "Contactos"
             },
@@ -165,7 +165,7 @@ const resources = {
                 "Home": "Startseite",
                 "About": "Über uns",
                 "Band": "Band",
-                "Schedule": "Zeitplan",
+                "Live": "Live",
                 "Videos": "Videos",
                 "Contacts": "Kontakte"
             },
@@ -200,7 +200,7 @@ const resources = {
                 "Home": "Início",
                 "About": "Sobre",
                 "Band": "Banda",
-                "Schedule": "Agenda",
+                "Live": "Ao vivo",
                 "Videos": "Vídeos",
                 "Contacts": "Contatos"
             },
@@ -235,7 +235,7 @@ const resources = {
                 "Home": "ホーム",
                 "About": "について",
                 "Band": "バンド",
-                "Schedule": "スケジュール",
+                "Live": "ライブ",
                 "Videos": "ビデオ",
                 "Contacts": "コンタクト"
             },

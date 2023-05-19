@@ -95,7 +95,7 @@ function App() {
 
                     <li className="nav-item">
                       <a className="nav-link click-scroll" href="#section_4">
-                        {t("menu.Schedule")}
+                        {t("menu.Live")}
                       </a>
                     </li>
 
