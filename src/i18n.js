@@ -45,7 +45,7 @@ const resources = {
             "whoTheyAre": "Chi sono",
             "whoTheyAreDescription": "Il trio è composto da Patrizio Buonaiuto alla voce e minimal drums, Marco Di Palo al violoncello e voce, e Stefano Esposito alla chitarra acustica e voce. Insieme, hanno creato un suono che è veramente il loro.",
             "aUniqueTitle": "Un'esperienza live unica",
-            "aUniqueDescription": "Ciò che distingue Beat FlowerS dalle altre band tributo ai Beatles è l'utilizzo del violoncello nelle loro arrangiamenti. Questo conferisce alla musica una profondità e una ricchezza che non si sente spesso nelle tradizionali band rock. Il loro utilizzo minimale della batteria consente inoltre alle voci e agli strumenti di emergere, creando un suono essenziale che è allo stesso tempo intimo e potente. Se sei un fan dei Beatles e stai cercando una nuova interpretazione delle loro canzoni classiche, allora i Beat FlowerS meritano sicuramente di essere ascoltati!",
+            "aUniqueDescription": "Ciò che distingue Beat FlowerS dalle altre band tributo ai Beatles è l'utilizzo del violoncello nei loro arrangiamenti. Questo conferisce alla musica una profondità e una ricchezza che non si sente spesso nelle tradizionali band rock. Il loro utilizzo minimale della batteria consente inoltre alle voci e agli strumenti di emergere, creando un suono essenziale che è allo stesso tempo intimo e potente. Se sei un fan dei Beatles e stai cercando una nuova interpretazione delle loro canzoni classiche, allora i Beat FlowerS meritano sicuramente di essere ascoltati!",
             "meetTheBand": "La Band",
             "hireUs": "Ingaggiaci!",
             "yourAmazingLiveExperience": "La tua incredibile esperienza live con noi!",

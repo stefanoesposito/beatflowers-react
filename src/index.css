@@ -13,18 +13,21 @@ code {
 }
 
 .dateCalendar {
-  width: 90px;
+  width: 85px;
   height: 110px;
   background-color: white;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  border-radius: 2px;
 }
 
 .rowMonthCalendar {
   width: 100%;
   background-color: #ef0000;
-  font-size: 14px;
+  font-size: 12px;
+  border-radius: 2px 2px 0 0;
+  padding: 2px 0;
 }
 
 .dayNumber {
