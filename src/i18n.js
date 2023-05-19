@@ -19,6 +19,7 @@ const resources = {
             "Date": "Date",
             "Location": "Location",
             "Links": "Links",
+            "Start": "Start:",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -53,6 +54,7 @@ const resources = {
             "Date": "Data",
             "Location": "Location",
             "Links": "Link",
+            "Start": "Start:",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -88,6 +90,7 @@ const resources = {
             "Date": "Date",
             "Location": "Lieu",
             "Links": "Liens",
+            "Start": "Début:",
             menu: {
                 "Home": "Accueil",
                 "About": "À propos",
@@ -122,6 +125,7 @@ const resources = {
             "Date": "Fecha",
             "Location": "Ubicación",
             "Links": "Enlaces",
+            "Start": "Inicio:",
             menu: {
                 "Home": "Inicio",
                 "About": "Acerca de",
@@ -156,6 +160,7 @@ const resources = {
             "Date": "Datum",
             "Location": "Ort",
             "Links": "Links",
+            "Start": "Start:",
             menu: {
                 "Home": "Startseite",
                 "About": "Über uns",
@@ -190,6 +195,7 @@ const resources = {
             "Date": "Data",
             "Location": "Localização",
             "Links": "Links",
+            "Start": "Início:",
             menu: {
                 "Home": "Início",
                 "About": "Sobre",
@@ -224,6 +230,7 @@ const resources = {
             "Date": "日付",
             "Location": "場所",
             "Links": "リンク",
+            "Start": "スタート:",
             menu: {
                 "Home": "ホーム",
                 "About": "について",
