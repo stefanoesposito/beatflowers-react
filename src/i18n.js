@@ -1,8 +1,10 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+const userLang = navigator.language || navigator.userLanguage;
+
 const resources = {
-    en: {
+    'en-GB': {
         translation: {
             "letsBegin": "Let's begin",
             "Follow": "Follow",
@@ -38,7 +40,7 @@ const resources = {
             }
         },
     },
-    it: {
+    'it-IT': {
         translation: {
             "letsBegin": "Cominciamo",
             "Follow": "Seguici",
@@ -75,7 +77,7 @@ const resources = {
             }
         },
     },
-    fr: {
+    'fr-FR': {
         translation: {
             "letsBegin": "Commençons",
             "Follow": "Suivre",
@@ -111,7 +113,7 @@ const resources = {
             }
         },
     },
-    es: {
+    'es-ES': {
         translation: {
             "letsBegin": "Comencemos",
             "Follow": "Seguir",
@@ -147,7 +149,7 @@ const resources = {
             }
         },
     },
-    de: {
+    'de-DE': {
         translation: {
             "letsBegin": "Lass uns anfangen",
             "Follow": "Folgen",
@@ -183,7 +185,7 @@ const resources = {
             }
         },
     },
-    br: {
+    'br-BR': {
         translation: {
             "letsBegin": "Vamos começar",
             "Follow": "Seguir",
@@ -219,7 +221,7 @@ const resources = {
             }
         },
     },
-    ja: {
+    'ja-JA': {
         translation: {
             "letsBegin": "始めましょう",
             "Follow": "フォロー",
@@ -258,10 +260,12 @@ const resources = {
 
 };
 
+console.log(userLang)
+
 i18n.use(initReactI18next).init({
     resources,
-    lng: 'it',
-    fallbackLng: 'en',
+    lng: userLang,
+    fallbackLng: 'en-GB',
     interpolation: {
         escapeValue: false,
     },
