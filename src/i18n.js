@@ -20,6 +20,7 @@ const resources = {
             "Location": "Location",
             "Links": "Links",
             "Start": "Start:",
+            "PastGigs": "Past live gigs",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -55,6 +56,7 @@ const resources = {
             "Location": "Location",
             "Links": "Link",
             "Start": "Start:",
+            "PastGigs": "Concerti passati",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -91,6 +93,7 @@ const resources = {
             "Location": "Lieu",
             "Links": "Liens",
             "Start": "Début:",
+            "PastGigs": "Concerts passés",
             menu: {
                 "Home": "Accueil",
                 "About": "À propos",
@@ -126,6 +129,7 @@ const resources = {
             "Location": "Ubicación",
             "Links": "Enlaces",
             "Start": "Inicio:",
+            "PastGigs": "Conciertos pasados",
             menu: {
                 "Home": "Inicio",
                 "About": "Acerca de",
@@ -161,6 +165,7 @@ const resources = {
             "Location": "Ort",
             "Links": "Links",
             "Start": "Start:",
+            "PastGigs": "Vergangene Auftritte",
             menu: {
                 "Home": "Startseite",
                 "About": "Über uns",
@@ -196,6 +201,7 @@ const resources = {
             "Location": "Localização",
             "Links": "Links",
             "Start": "Início:",
+            "PastGigs": "Shows passados",
             menu: {
                 "Home": "Início",
                 "About": "Sobre",
@@ -231,6 +237,7 @@ const resources = {
             "Location": "場所",
             "Links": "リンク",
             "Start": "スタート:",
+            "PastGigs": "過去のライブ",
             menu: {
                 "Home": "ホーム",
                 "About": "について",

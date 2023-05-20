@@ -42,3 +42,11 @@ code {
   font-size: 14px;
   text-transform: capitalize;
 }
+
+.pastGigLink {
+  color: #1985cc;
+}
+
+.pastGigLink:hover {
+  color: #3fa0e5;
+}
