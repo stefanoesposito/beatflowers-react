@@ -68,7 +68,7 @@ const Footer = ({currentYear}) => {
                             </li>
 
                             <li className="site-footer-link-item">
-                                <a href="#section_4" className="site-footer-link">{t('menu.Schedule')}</a>
+                                <a href="#section_4" className="site-footer-link">{t('menu.Live')}</a>
                             </li>
 
                             <li className="site-footer-link-item">
