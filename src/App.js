@@ -7,16 +7,15 @@ import DateRow from "./components/DateRow";
 import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./components/LanguageSwitcher";
-import { addSmoothScroll, clickScroll } from './scripts/customScripts'
-import { useDisclosure } from '@mantine/hooks';
-import { Modal, Group, Button, ScrollArea } from '@mantine/core';
-
+import { addSmoothScroll, clickScroll } from "./scripts/customScripts";
+import { useDisclosure } from "@mantine/hooks";
+import { Modal, Group, Button, ScrollArea } from "@mantine/core";
 
 function App() {
   const { t, i18n } = useTranslation();
   const [gigs, setGigs] = useState([]);
   const [opened, { open, close }] = useDisclosure(false);
-  const pastGigs = []
+  const pastGigs = [];
   const URL =
       "https://script.google.com/macros/s/AKfycbyuWMRenGVIhCmF67ThXYyJSYvSO-NzO1D_cLM5xsqL2iKTz54Ek9OygqzBLCzhibty/exec";
 
@@ -36,12 +35,13 @@ function App() {
   let currentYear = new Date().getFullYear();
 
   useEffect(() => {
-    clickScroll(window.jQuery)
-    addSmoothScroll(window.jQuery)
+    clickScroll(window.jQuery);
+    addSmoothScroll(window.jQuery);
   }, []);
 
-
-  const sortedPastGigs = pastGigs.sort((a,b) => (a.dateGig > b.dateGig) ? 1 : ((b.dateGig > a.dateGig) ? -1 : 0));
+  const sortedPastGigs = pastGigs.sort((a, b) =>
+      a.dateGig > b.dateGig ? 1 : b.dateGig > a.dateGig ? -1 : 0
+  );
 
   return (
       <>
@@ -67,6 +67,7 @@ function App() {
                 <a className="navbar-brand" href="/">
                   Beat FlowerS
                 </a>
+                <LanguageSwitcher />
 
                 <button
                     className="navbar-toggler"
@@ -81,7 +82,6 @@ function App() {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarNav">
-                  <LanguageSwitcher />
                   <ul className="navbar-nav align-items-lg-center ms-auto me-lg-5">
                     <li className="nav-item">
                       <a className="nav-link click-scroll" href="#section_1">
@@ -446,27 +446,36 @@ function App() {
                                 />
                             );
                           } else {
-                            pastGigs.push(gig)
+                            pastGigs.push(gig);
                           }
                         })}
                         </tbody>
                       </table>
                     </div>
-                            <Modal
-                                opened={opened}
-                                onClose={close}
-                                title={t('PastGigs')}
-                                scrollAreaComponent={ScrollArea.Autosize}
-                                centered
+                    <Modal
+                        opened={opened}
+                        onClose={close}
+                        title={t("PastGigs")}
+                        scrollAreaComponent={ScrollArea.Autosize}
+                        centered
+                    >
+                      {sortedPastGigs?.map((gig, i) => (
+                          <p key={i}>
+                            {gig.dateGig} -{" "}
+                            <a
+                                href={gig.venueLink}
+                                target={"_blank"}
+                                rel={"noreferrer"}
+                                className={"pastGigLink"}
                             >
-                    {sortedPastGigs?.map((gig, i) => (
-                              <p key={i}>{gig.dateGig} - <a href={gig.venueLink} target={'_blank'} rel={'noreferrer'} className={'pastGigLink'}>{gig.venueName}</a></p>
-                      )
-                    )}
-                            </Modal>
+                              {gig.venueName}
+                            </a>
+                          </p>
+                      ))}
+                    </Modal>
 
                     <Group position="center">
-                      <Button onClick={open}>{t('PastGigs')}</Button>
+                      <Button onClick={open}>{t("PastGigs")}</Button>
                     </Group>
                   </div>
                 </div>
