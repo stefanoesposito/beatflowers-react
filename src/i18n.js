@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-const userLang = navigator.language || navigator.userLanguage;
+const userLang = navigator.language || navigator.languages[0];
 
 const resources = {
     'en-GB': {
