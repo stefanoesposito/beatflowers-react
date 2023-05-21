@@ -368,15 +368,15 @@ function App() {
                           dateGigPlus.setDate(dateGigPlus.getDate());
                           let month, day;
                           switch (selectedLanguage) {
-                            case "en":
+                            case "en-GB":
                               month = dateGigPlus
-                                  .toLocaleString("en-US", { month: "long" })
+                                  .toLocaleString("en-GB", { month: "long" })
                                   .toUpperCase();
-                              day = dateGigPlus.toLocaleString("en-US", {
+                              day = dateGigPlus.toLocaleString("en-GB", {
                                 weekday: "long",
                               });
                               break;
-                            case "it":
+                            case "it-IT":
                               month = dateGigPlus
                                   .toLocaleString("it-IT", { month: "long" })
                                   .toUpperCase();
@@ -384,7 +384,7 @@ function App() {
                                 weekday: "long",
                               });
                               break;
-                            case "fr":
+                            case "fr-FR":
                               month = dateGigPlus
                                   .toLocaleString("fr-FR", { month: "long" })
                                   .toUpperCase();
@@ -392,7 +392,7 @@ function App() {
                                 weekday: "long",
                               });
                               break;
-                            case "es":
+                            case "es-ES":
                               month = dateGigPlus
                                   .toLocaleString("es-ES", { month: "long" })
                                   .toUpperCase();
@@ -400,7 +400,7 @@ function App() {
                                 weekday: "long",
                               });
                               break;
-                            case "de":
+                            case "de-DE":
                               month = dateGigPlus
                                   .toLocaleString("de-DE", { month: "long" })
                                   .toUpperCase();
@@ -408,7 +408,7 @@ function App() {
                                 weekday: "long",
                               });
                               break;
-                            case "br":
+                            case "br-BR":
                               month = dateGigPlus
                                   .toLocaleString("br-BR", { month: "long" })
                                   .toUpperCase();
@@ -416,7 +416,7 @@ function App() {
                                 weekday: "long",
                               });
                               break;
-                            case "ja":
+                            case "ja-JA":
                               month = dateGigPlus
                                   .toLocaleString("ja-JA", { month: "long" })
                                   .toUpperCase();
