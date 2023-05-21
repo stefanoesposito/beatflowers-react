@@ -7,7 +7,7 @@ import DateRow from "./components/DateRow";
 import Footer from "./components/Footer";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./components/LanguageSwitcher";
-import { addSmoothScroll, clickScroll } from "./scripts/customScripts";
+import {addSmoothScroll, clickScroll, initializeStickyNavbar} from './scripts/customScripts'
 import { useDisclosure } from "@mantine/hooks";
 import { Modal, Group, Button, ScrollArea } from "@mantine/core";
 
@@ -15,6 +15,7 @@ function App() {
   const { t, i18n } = useTranslation();
   const [gigs, setGigs] = useState([]);
   const [opened, { open, close }] = useDisclosure(false);
+  const [isStickyInitialized, setIsStickyInitialized] = useState(false);
   const pastGigs = [];
   const URL =
       "https://script.google.com/macros/s/AKfycbyuWMRenGVIhCmF67ThXYyJSYvSO-NzO1D_cLM5xsqL2iKTz54Ek9OygqzBLCzhibty/exec";
@@ -37,7 +38,11 @@ function App() {
   useEffect(() => {
     clickScroll(window.jQuery);
     addSmoothScroll(window.jQuery);
-  }, []);
+    if (!isStickyInitialized) {
+      initializeStickyNavbar(window.jQuery);
+      setIsStickyInitialized(true);
+    }
+  }, [isStickyInitialized]);
 
   const sortedPastGigs = pastGigs.sort((a, b) =>
       a.dateGig > b.dateGig ? 1 : b.dateGig > a.dateGig ? -1 : 0
@@ -61,7 +66,6 @@ function App() {
                 </div>
               </div>
             </header>
-
             <nav className="navbar navbar-expand-lg">
               <div className="container">
                 <a className="navbar-brand" href="/">
@@ -122,7 +126,6 @@ function App() {
                 </div>
               </div>
             </nav>
-
             <section className="hero-section" id="section_1">
               <div className="section-overlay"></div>
 
