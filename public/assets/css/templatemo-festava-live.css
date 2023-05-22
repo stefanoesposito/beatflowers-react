@@ -6,6 +6,11 @@ https://templatemo.com/tm-583-festava-live
 
 */
 
+@font-face {
+  font-display: block;
+  font-family: "Bootle";
+  src: url("../fonts/bootle.woff2") format("woff2");
+}
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )
@@ -206,6 +211,10 @@ strong {
 
 .link-fx-1 .icon line:last-child {
   transform-origin: 19px 15px;
+}
+
+.beatles {
+  font-family: 'Bootle', sans-serif;
 }
 
 

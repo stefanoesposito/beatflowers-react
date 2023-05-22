@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand beatles" href="/">
                     Beat FlowerS
                 </a>
                 <LanguageSwitcher/>
