@@ -110,6 +110,22 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                 weekday: 'long',
                                             })
                                             break
+                                        case 'cs-CZ':
+                                            month = dateGigPlus
+                                                .toLocaleString('cs-CZ', {month: 'long'})
+                                                .toUpperCase()
+                                            day = dateGigPlus.toLocaleString('cs-CZ', {
+                                                weekday: 'long',
+                                            })
+                                            break
+                                        case 'nl-NL':
+                                            month = dateGigPlus
+                                                .toLocaleString('nl-NL', {month: 'long'})
+                                                .toUpperCase()
+                                            day = dateGigPlus.toLocaleString('nl-NL', {
+                                                weekday: 'long',
+                                            })
+                                            break
                                         default:
                                             month = dateGigPlus
                                                 .toLocaleString('en-US', {month: 'long'})

@@ -16,9 +16,11 @@ function LanguageSwitcher() {
             <MenuItem value="fr-FR" title={'Français'}>🇫🇷</MenuItem>
             <MenuItem value="es-ES" title={'Español'}>🇪🇸</MenuItem>
             <MenuItem value="de-DE" title={'Deutsch'}>🇩🇪</MenuItem>
+            <MenuItem value="nl-NL" title={'Nederlands'}>🇳🇱</MenuItem>
             <MenuItem value="pt-BR" title={'Português'}>🇧🇷</MenuItem>
-            <MenuItem value="ja-JA" title={'日本'}>🇯🇵</MenuItem>
+            <MenuItem value="cs-CZ" title={'čeština'}>🇨🇿</MenuItem>
             <MenuItem value="sv-SE" title={'Svenska'}>🇸🇪</MenuItem>
+            <MenuItem value="ja-JA" title={'日本'}>🇯🇵</MenuItem>
             <MenuItem value="hi-IN" title={'हिंदी'}>🇮🇳</MenuItem>
         </Select>
     );

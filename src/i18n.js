@@ -294,6 +294,78 @@ const resources = {
             }
         }
     },
+    'cs-CZ': {
+        translation: {
+            "letsBegin": "Začněme",
+            "Follow": "Sledovat",
+            "aBeatlesCoverTrioTitle": "Trio coverů Beatles s unikátním zvukem",
+            "aBeatlesCoverTrioDescription": "Beat FlowerS je akustické trio Beatlemanie se sídlem v Neapoli, Itálie. Hrají písně legendární kapely s unikátním překvapením - používají kytaru, violoncello a minimální bicí nástroje pro vytvoření zvuku, který je zároveň povědomý a svěží.",
+            "whoTheyAre": "Kdo jsou",
+            "whoTheyAreDescription": "Trio se skládá z Patrizia Buonaiuta na vokálech a minimálních bicích nástrojích, Marca Di Pala na violoncellu a vokálech a Stefana Esposita na akustické kytarě a vokálech. Společně vytvořili zvuk, který je opravdu jejich vlastní.",
+            "aUniqueTitle": "Jedinečný živý zážitek",
+            "aUniqueDescription": "To, co odlišuje Beat FlowerS od ostatních cover kapel Beatles, je jejich použití violoncella ve svých aranžmá. To přidává hudbě hloubku a bohatství, které často nelze slyšet v tradičních rockových kapelách. Jejich minimální použití bicích nástrojů také umožňuje zpěvům a nástrojům zazářit, vytvářející střídmý zvuk, který je zároveň intimní a silný. Pokud jste fanouškem Beatles a hledáte novou interpretaci jejich klasických písní, pak určitě stojí za to si Beat FlowerS poslechnout!",
+            "meetTheBand": "Potkejte kapelu",
+            "hireUs": "Najměte nás!",
+            "yourAmazingLiveExperience": "Vaše úžasný živý zážitek s námi!",
+            "upcomingLiveDates": "Nadcházející živé koncerty",
+            "Date": "Datum",
+            "Location": "Místo",
+            "Links": "Odkazy",
+            "Start": "Začátek:",
+            "PastGigs": "Předchozí živé koncerty",
+            menu: {
+                "Home": "Domů",
+                "About": "O nás",
+                "Band": "Kapela",
+                "Live": "Živě",
+                "Videos": "Videa",
+                "Contacts": "Kontakty"
+            },
+            band: {
+                "Name": "Jméno:",
+                "Instrument": "Nástroj:",
+                "InstrumentPat": "Vokály, Minimální bicí nástroje",
+                "InstrumentMarco": "Violoncello a Vokály",
+                "InstrumentStefano": "Akustická kytara a Vokály"
+            }
+        }
+    },
+    'nl-NL': {
+        translation: {
+            "letsBegin": "Laten we beginnen",
+            "Follow": "Volgen",
+            "aBeatlesCoverTrioTitle": "Een Beatles Cover Trio met een Uniek Geluid",
+            "aBeatlesCoverTrioDescription": "Beat FlowerS is een akoestisch trio uit Napels, Italië, dat zich toelegt op Beatlemania. Ze spelen de nummers van de legendarische band met een unieke twist - gebruikmakend van gitaar, cello en minimale drums om een geluid te creëren dat zowel vertrouwd als fris is.",
+            "whoTheyAre": "Wie ze zijn",
+            "whoTheyAreDescription": "Het trio bestaat uit Patrizio Buonaiuto op zang en minimale drums, Marco Di Palo op cello en zang, en Stefano Esposito op akoestische gitaar en zang. Samen hebben ze een geluid gecreëerd dat echt van henzelf is.",
+            "aUniqueTitle": "Een Unieke Live-ervaring",
+            "aUniqueDescription": "Wat Beat FlowerS onderscheidt van andere Beatles coverbands is het gebruik van cello in hun arrangementen. Dit voegt diepte en rijkdom toe aan de muziek die niet vaak te horen is in traditionele rockbands. Hun minimale gebruik van drums laat ook de zang en instrumenten schitteren, waardoor een ingetogen geluid ontstaat dat zowel intiem als krachtig is. Als je een fan bent van The Beatles en op zoek bent naar een nieuwe interpretatie van hun klassieke nummers, dan is Beat FlowerS zeker het ontdekken waard!",
+            "meetTheBand": "Ontmoet de Band",
+            "hireUs": "Huur ons in!",
+            "yourAmazingLiveExperience": "Jouw geweldige live-ervaring met ons!",
+            "upcomingLiveDates": "Komende live-data",
+            "Date": "Datum",
+            "Location": "Locatie",
+            "Links": "Links",
+            "Start": "Start:",
+            "PastGigs": "Vorige live-optredens",
+            menu: {
+                "Home": "Home",
+                "About": "Over",
+                "Band": "Band",
+                "Live": "Live",
+                "Videos": "Video's",
+                "Contacts": "Contacten"
+            },
+            band: {
+                "Name": "Naam:",
+                "Instrument": "Instrument:",
+                "InstrumentPat": "Zang, Minimale Drums",
+                "InstrumentMarco": "Cello en Zang",
+                "InstrumentStefano": "Akoestische Gitaar en Zang"
+            }
+        }
+    },
     'hi-IN': {
         translation: {
             "letsBegin": "चलो शुरू करें",
@@ -331,8 +403,6 @@ const resources = {
         }
     }
 };
-
-console.log(userLang)
 
 i18n.use(initReactI18next).init({
     resources,
