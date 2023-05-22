@@ -44,17 +44,16 @@ function App() {
     }, [isStickyInitialized])
 
 
-
     return (
         <>
             <Fragment>
                 <main>
-                    <Header />
-                    <NavBar />
-                    <HeroSection />
+                    <Header/>
+                    <NavBar/>
+                    <HeroSection/>
                     <About/>
                     <MeetTheBand/>
-                    <LiveGigs gigs={gigs} selectedLanguage={selectedLanguage} />
+                    <LiveGigs gigs={gigs} selectedLanguage={selectedLanguage}/>
                     <Videos/>
                 </main>
                 <Footer currentYear={currentYear}/>
