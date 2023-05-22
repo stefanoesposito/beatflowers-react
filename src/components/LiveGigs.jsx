@@ -78,11 +78,11 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                 weekday: 'long',
                                             })
                                             break
-                                        case 'br-BR':
+                                        case 'pt-BR':
                                             month = dateGigPlus
-                                                .toLocaleString('br-BR', {month: 'long'})
+                                                .toLocaleString('pt-BR', {month: 'long'})
                                                 .toUpperCase()
-                                            day = dateGigPlus.toLocaleString('br-BR', {
+                                            day = dateGigPlus.toLocaleString('pt-BR', {
                                                 weekday: 'long',
                                             })
                                             break
@@ -120,6 +120,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                         )
                                     } else {
                                         pastGigs.push(gig)
+                                        return null
                                     }
                                 })}
                                 </tbody>

@@ -185,7 +185,7 @@ const resources = {
             }
         },
     },
-    'br-BR': {
+    'pt-BR': {
         translation: {
             "letsBegin": "Vamos começar",
             "Follow": "Seguir",
