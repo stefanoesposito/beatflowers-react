@@ -11,14 +11,15 @@ function LanguageSwitcher() {
 
     return (
         <Select value={i18n.language} onChange={handleChange}>
-            <MenuItem value="it-IT">🇮🇹</MenuItem>
-            <MenuItem value="en-GB">🇬🇧</MenuItem>
-            <MenuItem value="fr-FR">🇫🇷</MenuItem>
-            <MenuItem value="es-ES">🇪🇸</MenuItem>
-            <MenuItem value="de-DE">🇩🇪</MenuItem>
-            <MenuItem value="pt-BR">🇧🇷</MenuItem>
-            <MenuItem value="ja-JA">🇯🇵</MenuItem>
-            <MenuItem value="sv-SE">🇸🇪</MenuItem>
+            <MenuItem value="it-IT" title={'Italiano'}>🇮🇹</MenuItem>
+            <MenuItem value="en-GB" title={'English'}>🇬🇧</MenuItem>
+            <MenuItem value="fr-FR" title={'Français'}>🇫🇷</MenuItem>
+            <MenuItem value="es-ES" title={'Español'}>🇪🇸</MenuItem>
+            <MenuItem value="de-DE" title={'Deutsch'}>🇩🇪</MenuItem>
+            <MenuItem value="pt-BR" title={'Português'}>🇧🇷</MenuItem>
+            <MenuItem value="ja-JA" title={'日本'}>🇯🇵</MenuItem>
+            <MenuItem value="sv-SE" title={'Svenska'}>🇸🇪</MenuItem>
+            <MenuItem value="hi-IN" title={'हिंदी'}>🇮🇳</MenuItem>
         </Select>
     );
 }

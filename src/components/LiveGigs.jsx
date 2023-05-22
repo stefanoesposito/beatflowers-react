@@ -1,7 +1,7 @@
 import React from 'react'
 import DateRow from './DateRow'
-import { Button, Group, Modal, ScrollArea } from '@mantine/core'
-import { useDisclosure } from '@mantine/hooks'
+import {Button, Group, Modal, ScrollArea} from '@mantine/core'
+import {useDisclosure} from '@mantine/hooks'
 import {useTranslation} from 'react-i18next'
 
 const LiveGigs = ({gigs, selectedLanguage}) => {
@@ -102,7 +102,14 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                 weekday: 'long',
                                             })
                                             break
-
+                                        case 'hi-IN':
+                                            month = dateGigPlus
+                                                .toLocaleString('hi-IN', {month: 'long'})
+                                                .toUpperCase()
+                                            day = dateGigPlus.toLocaleString('hi-IN', {
+                                                weekday: 'long',
+                                            })
+                                            break
                                         default:
                                             month = dateGigPlus
                                                 .toLocaleString('en-US', {month: 'long'})
