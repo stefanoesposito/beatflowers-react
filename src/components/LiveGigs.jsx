@@ -14,7 +14,6 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
         a.dateGig > b.dateGig ? 1 : b.dateGig > a.dateGig ? -1 : 0
     )
 
-    console.log(pastGigs)
     return (
         <section className="schedule-section section-padding" id="section_4">
             <div className="container">
