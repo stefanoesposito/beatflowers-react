@@ -256,8 +256,44 @@ const resources = {
                 "InstrumentStefano": "アコースティックギターとボーカル",
             }
         },
-    }
+    },
+    'sv-SE': {
+        translation: {
+            "letsBegin": "Låt oss börja",
+            "Follow": "Följ",
+            "aBeatlesCoverTrioTitle": "En Beatles Cover Trio med en unik ljudbild",
+            "aBeatlesCoverTrioDescription": "Beat FlowerS är en Beatlemania akustisk trio baserad i Neapel, Italien. De spelar låtarna från det legendariska bandet med en unik twist - de använder gitarr, cello och minimalt med trummor för att skapa en ljudbild som både är bekant och fräsch.",
+            "whoTheyAre": "Vem de är",
+            "whoTheyAreDescription": "Trion består av Patrizio Buonaiuto på sång och minimala trummor, Marco Di Palo på cello och sång, och Stefano Esposito på akustisk gitarr och sång. Tillsammans har de skapat en ljudbild som verkligen är deras egen.",
+            "aUniqueTitle": "En unik liveupplevelse",
+            "aUniqueDescription": "Det som skiljer Beat FlowerS från andra Beatles-coverband är deras användning av cello i sina arrangemang. Detta ger en djup och fyllighet till musiken som sällan hörs i traditionella rockband. Deras minimala användning av trummor låter även sången och instrumenten lysa igenom och skapar en avskalad ljudbild som både är intim och kraftfull. Om du är en fan av The Beatles och letar efter en ny tolkning av deras klassiska låtar är Beat FlowerS definitivt värt att kolla in!",
+            "meetTheBand": "Träffa bandet",
+            "hireUs": "Anlita oss!",
+            "yourAmazingLiveExperience": "Din fantastiska liveupplevelse med oss!",
+            "upcomingLiveDates": "Kommande spelningar",
+            "Date": "Datum",
+            "Location": "Plats",
+            "Links": "Länkar",
+            "Start": "Start:",
+            "PastGigs": "Tidigare spelningar",
+            menu: {
+                "Home": "Hem",
+                "About": "Om oss",
+                "Band": "Band",
+                "Live": "Live",
+                "Videos": "Videor",
+                "Contacts": "Kontakt",
+            },
 
+            band: {
+                "Name": "Namn:",
+                "Instrument": "Instrument:",
+                "InstrumentPat": "Sång, minimala trummor",
+                "InstrumentMarco": "Cello och sång",
+                "InstrumentStefano": "Akustisk gitarr och sång",
+            }
+        }
+    }
 };
 
 console.log(userLang)

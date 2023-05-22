@@ -18,6 +18,7 @@ function LanguageSwitcher() {
             <MenuItem value="de-DE">🇩🇪</MenuItem>
             <MenuItem value="pt-BR">🇧🇷</MenuItem>
             <MenuItem value="ja-JA">🇯🇵</MenuItem>
+            <MenuItem value="sv-SE">🇸🇪</MenuItem>
         </Select>
     );
 }
