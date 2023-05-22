@@ -1,6 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import axios from 'axios'
-// import './App.css';
 import './index.css'
 import Footer from './components/Footer'
 import {useTranslation} from 'react-i18next'
