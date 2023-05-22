@@ -229,7 +229,7 @@ strong {
   pointer-events: none;
   width: 100%;
   height: 100%;
-  opacity: 0.35;
+  opacity: 0.6;
 }
 
 .section-overlay + .container {
@@ -694,7 +694,7 @@ strong {
 }
 
 .schedule-table .band-background-image {
-  background-image: url('../images/artists/beat_playing.jpeg');
+  background-image: url('../images/artists/beat-playing.jpg');
 }
 
 .schedule-table .pop-background-image {
