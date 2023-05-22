@@ -134,7 +134,7 @@ const resources = {
             "PastGigs": "Conciertos pasados",
             menu: {
                 "Home": "Inicio",
-                "About": "Acerca de",
+                "About": "Nosotros",
                 "Band": "Banda",
                 "Live": "En vivo",
                 "Videos": "Videos",
