@@ -1,7 +1,8 @@
 import React from 'react'
 import {useTranslation} from 'react-i18next'
-const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMaps}) => {
-    const {t}=useTranslation()
+
+const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMaps, isEven}) => {
+    const {t} = useTranslation()
 
     return (
         <tr>
@@ -18,7 +19,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                     </div>
                 </div>
             </th>
-            <td className="table-background-image-wrap pop-background-image">
+            <td className={`table-background-image-wrap ${isEven ? 'pop-background-image' : 'band-background-image'}`}>
                 <a href={venueLink} target="_blank" rel="noopener noreferrer">
                     <h3>{venueName}</h3>
                 </a>

@@ -693,6 +693,10 @@ strong {
   border-right-color: transparent;
 }
 
+.schedule-table .band-background-image {
+  background-image: url('../images/artists/beat_playing.jpeg');
+}
+
 .schedule-table .pop-background-image {
   background-image: url('../images/artists/marco-di-palo.jpeg');
 }

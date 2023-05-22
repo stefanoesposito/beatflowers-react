@@ -34,6 +34,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
 
                                     <tbody>
                                     {gigs?.map((gig, i) => {
+                                        const isEven = i % 2 === 0
                                         const dateNowParsed = new Date()
                                         const dateGigPlus = new Date(gig.dateGig)
                                         dateGigPlus.setDate(dateGigPlus.getDate())
@@ -149,6 +150,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     venueName={gig.venueName}
                                                     timeGig={gig.timeGig}
                                                     venueMaps={gig.venueMaps}
+                                                    isEven={isEven}
                                                 />
                                             )
                                         } else {
