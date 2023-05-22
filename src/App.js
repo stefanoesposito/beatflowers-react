@@ -11,9 +11,10 @@ import Videos from './components/Videos'
 import LiveGigs from './components/LiveGigs'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
+import Header from './components/Header'
 
 function App() {
-    const {t, i18n} = useTranslation()
+    const {i18n} = useTranslation()
     const [gigs, setGigs] = useState([])
     const [isStickyInitialized, setIsStickyInitialized] = useState(false)
     const URL =
@@ -47,38 +48,14 @@ function App() {
 
     return (
         <>
-            {/*HEADER AND NAV*/}
             <Fragment>
                 <main>
-                    <header className="site-header">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12 col-12 d-flex flex-wrap">
-                                    <p className="d-flex me-4 mb-0">
-                                        <i className="bi bi-music-note-beamed me-2"></i>
-                                        <strong className="text-dark">
-                                            #BeatlesCover Acoustic Trio
-                                        </strong>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </header>
+                    <Header />
                     <NavBar />
-
-                    {/*HERO SECTION*/}
                     <HeroSection />
-
-                    {/*ABOUT*/}
                     <About/>
-
-                    {/*MEET THE BAND*/}
                     <MeetTheBand/>
-
-                    {/*GIGS*/}
                     <LiveGigs gigs={gigs} selectedLanguage={selectedLanguage} />
-
-                    {/*VIDEOS*/}
                     <Videos/>
                 </main>
                 <Footer currentYear={currentYear}/>
