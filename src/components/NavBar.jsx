@@ -9,7 +9,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand beatles" href="/">
-                    Beat FlowerS
+                    BeaT FlowerS
                 </a>
                 <LanguageSwitcher/>
 
