@@ -12,7 +12,7 @@ const Videos = () => {
                         <h2 className="text-center mb-4">{t('menu.Videos')}</h2>
                     </div>
 
-                    <div className="col-lg-6 col-12">
+                    <div className="col-lg-6 col-12 mb-lg-4">
                         <iframe
                             width="100%"
                             height="315"
@@ -36,7 +36,7 @@ const Videos = () => {
                         ></iframe>
                     </div>
 
-                    <div className="col-lg-6 col-12">
+                    <div className="col-lg-6 col-12 mt-4 mt-lg-0">
                         <iframe
                             width="100%"
                             height="315"
