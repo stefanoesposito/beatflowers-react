@@ -2,6 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import {Select, MenuItem} from '@mui/material'
 
+const supportedLanguages = ['en', 'it', 'fr', 'es', 'de', 'nl', 'pt', 'cs', 'sv', 'pl', 'ja', 'hi'];
+
 function LanguageSwitcher() {
     const { i18n } = useTranslation();
 
@@ -9,8 +11,9 @@ function LanguageSwitcher() {
         i18n.changeLanguage(event.target.value);
     };
 
+
     return (
-        <Select value={i18n.language} onChange={handleChange}>
+        <Select value={supportedLanguages.includes(i18n.language) ? i18n.language : 'en'} onChange={handleChange}>
             <MenuItem value="en" title={'English'}>🇬🇧</MenuItem>
             <MenuItem value="it" title={'Italiano'}>🇮🇹</MenuItem>
             <MenuItem value="fr" title={'Français'}>🇫🇷</MenuItem>
