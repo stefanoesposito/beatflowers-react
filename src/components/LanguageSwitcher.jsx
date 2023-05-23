@@ -11,17 +11,17 @@ function LanguageSwitcher() {
 
     return (
         <Select value={i18n.language} onChange={handleChange}>
-            <MenuItem value="it-IT" title={'Italiano'}>🇮🇹</MenuItem>
-            <MenuItem value="en-GB" title={'English'}>🇬🇧</MenuItem>
-            <MenuItem value="fr-FR" title={'Français'}>🇫🇷</MenuItem>
-            <MenuItem value="es-ES" title={'Español'}>🇪🇸</MenuItem>
-            <MenuItem value="de-DE" title={'Deutsch'}>🇩🇪</MenuItem>
-            <MenuItem value="nl-NL" title={'Nederlands'}>🇳🇱</MenuItem>
-            <MenuItem value="pt-BR" title={'Português'}>🇧🇷</MenuItem>
-            <MenuItem value="cs-CZ" title={'čeština'}>🇨🇿</MenuItem>
-            <MenuItem value="sv-SE" title={'Svenska'}>🇸🇪</MenuItem>
-            <MenuItem value="ja-JA" title={'日本'}>🇯🇵</MenuItem>
-            <MenuItem value="hi-IN" title={'हिंदी'}>🇮🇳</MenuItem>
+            <MenuItem value="it" title={'Italiano'}>🇮🇹</MenuItem>
+            <MenuItem value="en" title={'English'}>🇬🇧</MenuItem>
+            <MenuItem value="fr" title={'Français'}>🇫🇷</MenuItem>
+            <MenuItem value="es" title={'Español'}>🇪🇸</MenuItem>
+            <MenuItem value="de" title={'Deutsch'}>🇩🇪</MenuItem>
+            <MenuItem value="nl" title={'Nederlands'}>🇳🇱</MenuItem>
+            <MenuItem value="pt" title={'Português'}>🇧🇷</MenuItem>
+            <MenuItem value="cs" title={'čeština'}>🇨🇿</MenuItem>
+            <MenuItem value="sv" title={'Svenska'}>🇸🇪</MenuItem>
+            <MenuItem value="ja" title={'日本'}>🇯🇵</MenuItem>
+            <MenuItem value="hi" title={'हिंदी'}>🇮🇳</MenuItem>
         </Select>
     );
 }

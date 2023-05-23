@@ -40,7 +40,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                         dateGigPlus.setDate(dateGigPlus.getDate())
                                         let month, day
                                         switch (selectedLanguage) {
-                                            case 'en-GB':
+                                            case 'en':
                                                 month = dateGigPlus
                                                     .toLocaleString('en-GB', {month: 'long'})
                                                     .toUpperCase()
@@ -48,7 +48,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'it-IT':
+                                            case 'it':
                                                 month = dateGigPlus
                                                     .toLocaleString('it-IT', {month: 'long'})
                                                     .toUpperCase()
@@ -56,7 +56,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'fr-FR':
+                                            case 'fr':
                                                 month = dateGigPlus
                                                     .toLocaleString('fr-FR', {month: 'long'})
                                                     .toUpperCase()
@@ -64,7 +64,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'es-ES':
+                                            case 'es':
                                                 month = dateGigPlus
                                                     .toLocaleString('es-ES', {month: 'long'})
                                                     .toUpperCase()
@@ -72,7 +72,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'de-DE':
+                                            case 'de':
                                                 month = dateGigPlus
                                                     .toLocaleString('de-DE', {month: 'long'})
                                                     .toUpperCase()
@@ -80,7 +80,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'pt-BR':
+                                            case 'pt':
                                                 month = dateGigPlus
                                                     .toLocaleString('pt-BR', {month: 'long'})
                                                     .toUpperCase()
@@ -88,7 +88,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'ja-JA':
+                                            case 'ja':
                                                 month = dateGigPlus
                                                     .toLocaleString('ja-JA', {month: 'long'})
                                                     .toUpperCase()
@@ -96,7 +96,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'sv-SE':
+                                            case 'sv':
                                                 month = dateGigPlus
                                                     .toLocaleString('sv-SE', {month: 'long'})
                                                     .toUpperCase()
@@ -104,7 +104,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'hi-IN':
+                                            case 'hi':
                                                 month = dateGigPlus
                                                     .toLocaleString('hi-IN', {month: 'long'})
                                                     .toUpperCase()
@@ -112,7 +112,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'cs-CZ':
+                                            case 'cs':
                                                 month = dateGigPlus
                                                     .toLocaleString('cs-CZ', {month: 'long'})
                                                     .toUpperCase()
@@ -120,7 +120,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     weekday: 'long',
                                                 })
                                                 break
-                                            case 'nl-NL':
+                                            case 'nl':
                                                 month = dateGigPlus
                                                     .toLocaleString('nl-NL', {month: 'long'})
                                                     .toUpperCase()

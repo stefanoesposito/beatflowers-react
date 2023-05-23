@@ -2,9 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 const userLang = navigator.language || navigator.languages[0];
+const mainLanguage = userLang.split('-')[0];
 
 const resources = {
-    'en-GB': {
+    'en': {
         translation: {
             "letsBegin": "Let's begin",
             "Follow": "Follow",
@@ -40,7 +41,7 @@ const resources = {
             }
         },
     },
-    'it-IT': {
+    'it': {
         translation: {
             "letsBegin": "Cominciamo",
             "Follow": "Seguici",
@@ -77,7 +78,7 @@ const resources = {
             }
         },
     },
-    'fr-FR': {
+    'fr': {
         translation: {
             "letsBegin": "Commençons",
             "Follow": "Suivre",
@@ -113,7 +114,7 @@ const resources = {
             }
         },
     },
-    'es-ES': {
+    'es': {
         translation: {
             "letsBegin": "Comencemos",
             "Follow": "Seguir",
@@ -149,7 +150,7 @@ const resources = {
             }
         },
     },
-    'de-DE': {
+    'de': {
         translation: {
             "letsBegin": "Lass uns anfangen",
             "Follow": "Folgen",
@@ -185,7 +186,7 @@ const resources = {
             }
         },
     },
-    'pt-BR': {
+    'pt': {
         translation: {
             "letsBegin": "Vamos começar",
             "Follow": "Seguir",
@@ -221,7 +222,7 @@ const resources = {
             }
         },
     },
-    'ja-JA': {
+    'ja': {
         translation: {
             "letsBegin": "始めましょう",
             "Follow": "フォロー",
@@ -257,7 +258,7 @@ const resources = {
             }
         },
     },
-    'sv-SE': {
+    'sv': {
         translation: {
             "letsBegin": "Låt oss börja",
             "Follow": "Följ",
@@ -294,7 +295,7 @@ const resources = {
             }
         }
     },
-    'cs-CZ': {
+    'cs': {
         translation: {
             "letsBegin": "Začněme",
             "Follow": "Sledovat",
@@ -330,7 +331,7 @@ const resources = {
             }
         }
     },
-    'nl-NL': {
+    'nl': {
         translation: {
             "letsBegin": "Laten we beginnen",
             "Follow": "Volgen",
@@ -366,7 +367,7 @@ const resources = {
             }
         }
     },
-    'hi-IN': {
+    'hi': {
         translation: {
             "letsBegin": "चलो शुरू करें",
             "Follow": "फ़ॉलो करें",
@@ -406,8 +407,8 @@ const resources = {
 
 i18n.use(initReactI18next).init({
     resources,
-    lng: userLang,
-    fallbackLng: 'en-GB',
+    lng: mainLanguage,
+    fallbackLng: 'en',
     interpolation: {
         escapeValue: false,
     },
