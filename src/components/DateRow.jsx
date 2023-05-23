@@ -25,7 +25,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 </a>
                 <p className="mb-2">{t('Start')} {timeGig}</p>
                 <a href={venueMaps} target="_blank" rel="noopener noreferrer">
-                    <span style={{fontSize: 40, color: 'white'}} className="bi bi-geo-alt-fill"></span>
+                    <span style={{fontSize: 40, color: '#F8CB2E', position: 'relative', zIndex: 2}} className="bi bi-geo-alt-fill"></span>
                 </a>
                 <div className="section-overlay"></div>
             </td>

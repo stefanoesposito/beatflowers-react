@@ -37,7 +37,7 @@ const About = () => {
 
                             <div className="about-text-info d-flex">
                                 <div className="d-flex">
-                                    <i className="about-text-icon bi-person"></i>
+                                    <i className="about-text-icon bi-play-circle"></i>
                                 </div>
 
                                 <div className="ms-4">

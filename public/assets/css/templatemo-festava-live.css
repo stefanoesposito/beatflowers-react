@@ -25,7 +25,7 @@ https://templatemo.com/tm-583-festava-live
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --link-hover-color: #ffd815;
 
   --body-font-family:             'Outfit', sans-serif;
 
@@ -409,7 +409,7 @@ strong {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .navbar-toggler {
@@ -555,6 +555,12 @@ strong {
   padding: 35px;
 }
 
+@media screen and (max-width: 767px) {
+  .about-text-info {
+    padding: 9px;
+  }
+}
+
 
 /*---------------------------------------
   TICKET
@@ -627,6 +633,11 @@ strong {
   right: 0;
   left: 0;
   opacity: 0;
+}
+
+.artists-hover p {
+  color: var(--dark-color);
+  font-weight: 400;
 }
 
 .artists-hover p strong {
@@ -783,7 +794,7 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  /*background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpeg');*/
+  /*background-image: url('../images/artists/marco-di-palo.jpeg');*/
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
