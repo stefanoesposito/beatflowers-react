@@ -14,8 +14,8 @@ function LanguageSwitcher() {
 
     return (
         <Select value={supportedLanguages.includes(i18n.language) ? i18n.language : 'en'} onChange={handleChange}>
-            <MenuItem value="en" title={'English'}>🇬🇧</MenuItem>
             <MenuItem value="it" title={'Italiano'}>🇮🇹</MenuItem>
+            <MenuItem value="en" title={'English'}>🇬🇧</MenuItem>
             <MenuItem value="fr" title={'Français'}>🇫🇷</MenuItem>
             <MenuItem value="es" title={'Español'}>🇪🇸</MenuItem>
             <MenuItem value="de" title={'Deutsch'}>🇩🇪</MenuItem>
