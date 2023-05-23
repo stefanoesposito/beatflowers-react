@@ -8,8 +8,8 @@ https://templatemo.com/tm-583-festava-live
 
 @font-face {
   font-display: block;
-  font-family: "Bootle";
-  src: url("../fonts/bootle.woff2") format("woff2");
+  font-family: "BeatFlowerS";
+  src: url("../fonts/BeatFlowerS.woff2") format("woff2");
 }
 
 /*---------------------------------------
@@ -214,7 +214,7 @@ strong {
 }
 
 .beatles {
-  font-family: 'Bootle', sans-serif;
+  font-family: 'BeatFlowerS', sans-serif;
 }
 
 

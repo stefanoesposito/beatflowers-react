@@ -13,7 +13,7 @@ const HeroSection = () => {
                     <div className="col-12 mt-auto mb-5 text-center">
                         <small>The</small>
 
-                        <h1 className="text-white mb-5 beatles">Beat FlowerS</h1>
+                        <h1 className="text-white mb-5 beatles">BeaT FlowerS</h1>
 
                         <a className="btn custom-btn smoothscroll" href="#section_2">
                             {t('letsBegin')}

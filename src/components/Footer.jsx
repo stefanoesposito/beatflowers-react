@@ -10,7 +10,7 @@ const Footer = ({currentYear}) => {
                     <div className="row">
 
                         <div className="col-lg-6 col-12">
-                            <h2 className="text-white mb-lg-0 beatles">Beat FlowerS</h2>
+                            <h2 className="text-white mb-lg-0 beatles">BeaT FlowerS</h2>
                         </div>
 
                         <div className="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
