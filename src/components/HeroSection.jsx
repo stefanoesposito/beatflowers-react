@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="container d-flex justify-content-center align-items-center">
                 <div className="row">
                     <div className="col-12 mt-auto mb-5 text-center">
-                        <small>The</small>
+                        <small className={'beatles'}>the</small>
 
                         <h1 className="text-white mb-5 beatles">BeaT FlowerS</h1>
 
