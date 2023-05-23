@@ -20,6 +20,7 @@ function LanguageSwitcher() {
             <MenuItem value="pt" title={'Português'}>🇧🇷</MenuItem>
             <MenuItem value="cs" title={'čeština'}>🇨🇿</MenuItem>
             <MenuItem value="sv" title={'Svenska'}>🇸🇪</MenuItem>
+            <MenuItem value="pl" title={'Polski'}>🇵🇱</MenuItem>
             <MenuItem value="ja" title={'日本'}>🇯🇵</MenuItem>
             <MenuItem value="hi" title={'हिंदी'}>🇮🇳</MenuItem>
         </Select>

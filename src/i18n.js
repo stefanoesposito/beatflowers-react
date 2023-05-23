@@ -367,6 +367,42 @@ const resources = {
             }
         }
     },
+    'pl': {
+        translation: {
+            "letsBegin": "Zaczynajmy",
+            "Follow": "Obserwuj",
+            "aBeatlesCoverTrioTitle": "Trio coverowe zespołu Beatles o unikalnym brzmieniu",
+            "aBeatlesCoverTrioDescription": "Beat FlowerS to akustyczne trio Beatlemanii z siedzibą w Neapolu we Włoszech. Grają piosenki legendarnego zespołu w niepowtarzalny sposób - wykorzystując gitarę, wiolonczelę i minimalne perkusjonalia, tworzą dźwięk, który jest zarówno znajomy, jak i świeży.",
+            "whoTheyAre": "Kim są",
+            "whoTheyAreDescription": "Trio składa się z Patrizio Buonaiuto - wokal i minimalne perkusjonalia, Marco Di Palo - wiolonczela i wokal oraz Stefano Esposito - gitara akustyczna i wokal. Razem stworzyli dźwięk, który jest prawdziwie ich własny.",
+            "aUniqueTitle": "Niezwykłe doświadczenie na żywo",
+            "aUniqueDescription": "To, co wyróżnia Beat FlowerS spośród innych zespołów coverowych Beatles, to wykorzystanie wiolonczeli w swoich aranżacjach. Dodaje to głębi i bogactwa muzycznego, które rzadko słychać w tradycyjnych zespołach rockowych. Minimalne użycie perkusji pozwala również na wyeksponowanie wokalu i instrumentów, tworząc prosty, intymny i potężny dźwięk. Jeśli jesteś fanem The Beatles i szukasz nowej interpretacji ich klasycznych utworów, to koniecznie sprawdź Beat FlowerS!",
+            "meetTheBand": "Poznaj zespół",
+            "hireUs": "Zatrudnij nas!",
+            "yourAmazingLiveExperience": "Twoje niesamowite wrażenia na żywo z nami!",
+            "upcomingLiveDates": "Nadchodzące koncerty",
+            "Date": "Data",
+            "Location": "Lokalizacja",
+            "Links": "Linki",
+            "Start": "Początek:",
+            "PastGigs": "Poprzednie koncerty",
+            menu: {
+                "Home": "Strona główna",
+                "About": "O nas",
+                "Band": "Zespół",
+                "Live": "Koncerty",
+                "Videos": "Filmy",
+                "Contacts": "Kontakt"
+            },
+            band: {
+                "Name": "Imię:",
+                "Instrument": "Instrument:",
+                "InstrumentPat": "Wokal, Minimalne perkusjonalia",
+                "InstrumentMarco": "Wiolonczela i Wokal",
+                "InstrumentStefano": "Gitara akustyczna i Wokal",
+            }
+        },
+    },
     'hi': {
         translation: {
             "letsBegin": "चलो शुरू करें",
