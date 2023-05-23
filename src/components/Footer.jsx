@@ -146,7 +146,7 @@ const Footer = ({currentYear}) => {
 
                         <div className="col-lg-3 col-12 mt-5">
                             <p className="copyright-text">&copy; <span>{currentYear}</span> - <span className={'beatles'}>BeaT FlowerS</span></p>
-                            <p className="copyright-text">Made by: <a href="https://www.linkedin.com/in/stefanoesposito75">ilFaro</a>
+                            <p className="copyright-text">Made by: <a href="https://www.linkedin.com/in/stefanoesposito75" target={'_blank'} rel={'noreferrer'}>ilFaro</a>
                             </p>
                         </div>
 
