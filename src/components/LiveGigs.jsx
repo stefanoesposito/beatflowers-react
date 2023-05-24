@@ -158,6 +158,7 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                     venueName={gig.venueName}
                                                     timeGig={gig.timeGig}
                                                     venueMaps={gig.venueMaps}
+                                                    venueLogo={gig.venueLogo}
                                                     isEven={isEven}
                                                 />
                                             )

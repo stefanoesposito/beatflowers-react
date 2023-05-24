@@ -40,6 +40,17 @@ code {
     text-transform: capitalize;
 }
 
+.circularVenueLogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid var(--primary-color);
+    margin: 10px auto;
+    z-index: 2;
+}
+
 @media screen and (min-width: 600px) {
     .dateCalendar {
         width: 85px;

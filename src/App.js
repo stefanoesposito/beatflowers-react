@@ -17,7 +17,7 @@ function App() {
     const [gigs, setGigs] = useState([])
     const [isStickyInitialized, setIsStickyInitialized] = useState(false)
     const URL =
-        'https://script.google.com/macros/s/AKfycbyuWMRenGVIhCmF67ThXYyJSYvSO-NzO1D_cLM5xsqL2iKTz54Ek9OygqzBLCzhibty/exec'
+        'https://script.google.com/macros/s/AKfycbwAqux2KkczlwJ6ZrKfPVy0rdm7qBs0E8THxrnkZeZF6zInIHm0SYBbH6mQy-ArsH09/exec'
 
     const selectedLanguage = i18n.language
     const getData = async () => {
