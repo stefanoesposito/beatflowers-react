@@ -4,7 +4,6 @@ import {useTranslation} from 'react-i18next'
 const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMaps, isEven, venueLogo}) => {
     const {t} = useTranslation()
 
-    console.log(isEven)
     return (
         <tr>
             <th scope="row" className={isEven ? "clearerTh" : ""}>

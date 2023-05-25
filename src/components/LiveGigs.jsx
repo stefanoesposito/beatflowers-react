@@ -4,24 +4,24 @@ import {Button, Group, Loader, Modal, ScrollArea} from '@mantine/core'
 import {useDisclosure} from '@mantine/hooks'
 import {useTranslation} from 'react-i18next'
 
-const LiveGigs = ({gigs, selectedLanguage}) => {
+const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
     const [opened, {open, close}] = useDisclosure(false)
     const {t} = useTranslation()
 
-    const pastGigs = []
-
-    const sortedPastGigs = pastGigs.sort((a, b) =>
-        a.dateGig > b.dateGig ? 1 : b.dateGig > a.dateGig ? -1 : 0
-    )
 
     return (
         <section className="schedule-section section-padding" id="section_4">
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
+                        {todayEvent ? <div>
+                            <h2 className="text-white mb-4">Questa sera</h2>
+                            <h3 className={'text-white'}>{todayEvent.venueName}</h3>
+                            <span>{todayEvent.dateGig}</span>
+                        </div> : null}
                         <h2 className="text-white mb-4">{t('upcomingLiveDates')}</h2>
 
-                        {gigs && gigs.length ? (
+                        {futureEvents && futureEvents.length ? (
                             <div className="table-responsive">
                                 <table className="schedule-table table table-dark">
                                     <thead>
@@ -33,11 +33,10 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                     </thead>
 
                                     <tbody>
-                                    {gigs?.map((gig, i) => {
+                                    {futureEvents.map((gig, i) => {
                                         const isEven = i % 2 === 0
-                                        const dateNowParsed = new Date()
+                                        // const dateGigPlus = gig.dateGig.split("T")[0];
                                         const dateGigPlus = new Date(gig.dateGig)
-                                        dateGigPlus.setDate(dateGigPlus.getDate())
                                         let month, day
                                         switch (selectedLanguage) {
                                             case 'en':
@@ -145,27 +144,22 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                                                 })
                                         }
 
-                                        const dayNumber = new Date(gig.dateGig).getDate()
+                                        const dayNumber = new Date(dateGigPlus).getDate()
 
-                                        if (dateNowParsed <= dateGigPlus) {
-                                            return (
-                                                <DateRow
-                                                    key={i}
-                                                    day={day}
-                                                    month={month}
-                                                    dayNumber={dayNumber}
-                                                    venueLink={gig.venueLink}
-                                                    venueName={gig.venueName}
-                                                    timeGig={gig.timeGig}
-                                                    venueMaps={gig.venueMaps}
-                                                    venueLogo={gig.venueLogo}
-                                                    isEven={isEven}
-                                                />
-                                            )
-                                        } else {
-                                            pastGigs.push(gig)
-                                            return null
-                                        }
+                                        return (
+                                            <DateRow
+                                                key={i}
+                                                day={day}
+                                                month={month}
+                                                dayNumber={dayNumber}
+                                                venueLink={gig.venueLink}
+                                                venueName={gig.venueName}
+                                                timeGig={gig.timeGig}
+                                                venueMaps={gig.venueMaps}
+                                                venueLogo={gig.venueLogo}
+                                                isEven={isEven}
+                                            />
+                                        )
                                     })}
                                     </tbody>
                                 </table>
@@ -179,9 +173,9 @@ const LiveGigs = ({gigs, selectedLanguage}) => {
                             scrollAreaComponent={ScrollArea.Autosize}
                             centered
                         >
-                            {sortedPastGigs?.map((gig, i) => (
+                            {pastEvents?.map((gig, i) => (
                                 <p key={i}>
-                                    {gig.dateGig} -{' '}
+                                    {gig.dateGig.split('T')[0]} -{' '}
                                     <a
                                         href={gig.venueLink}
                                         target={'_blank'}
