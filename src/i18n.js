@@ -73,7 +73,7 @@ const resources = {
                 "Instrument": "Strumento:",
                 "InstrumentPat": "Voce, Minimal Drums",
                 "InstrumentMarco": "Violoncello e Voce",
-                "InstrumentStefano": "Chitarra acustica e Voce",
+                "InstrumentStefano": "Chitarra Acustica e Voce",
 
             }
         },
