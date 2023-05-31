@@ -5,6 +5,16 @@ import {useTranslation} from 'react-i18next'
 const NavBar = () => {
     const {t} = useTranslation()
 
+    const handleAddToHomeScreen = () => {
+        if ('deferredPrompt' in window) {
+            window.deferredPrompt.prompt();
+            window.deferredPrompt.userChoice.then((choiceResult) => {
+                // Reset the deferredPrompt variable
+                window.deferredPrompt = null;
+            });
+        }
+    };
+
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container">
@@ -62,7 +72,12 @@ const NavBar = () => {
                                 {t('menu.Contacts')}
                             </a>
                         </li>
+
+                        <li className="nav-item" onClick={handleAddToHomeScreen}>
+                            <i className="nav-link click-scroll text-white bi-box-arrow-down" style={{cursor: 'pointer'}}></i>
+                        </li>
                     </ul>
+
                 </div>
             </div>
         </nav>

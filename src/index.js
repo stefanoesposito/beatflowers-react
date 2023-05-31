@@ -6,6 +6,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault(); // Prevents the default browser install prompt
+    // Store the event for later use
+    window.deferredPrompt = event;
+});
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <I18nextProvider i18n={i18n}>
