@@ -9,7 +9,6 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
     const {t} = useTranslation()
 
 
-    console.log(todayEvent !== null)
     return (
         <section className="schedule-section section-padding" id="section_4">
             <div className="container">
@@ -18,7 +17,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
                         {todayEvent !== null &&
                             (
                                 <div>
-                                    <h2 className="text-white mb-4">Questa sera</h2>
+                                    {/*<h2 className="text-white mb-4">Questa sera</h2>*/}
                                     <h3 className={'text-white'}>{todayEvent?.venueName}</h3>
                                     <div style={{margin: '0 auto', marginBottom: 40}}>
                                         <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
