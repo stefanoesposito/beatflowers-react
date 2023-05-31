@@ -46,7 +46,6 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
                                     <tbody>
                                     {futureEvents.map((gig, i) => {
                                         const isEven = i % 2 === 0
-                                        // const dateGigPlus = gig.dateGig.split("T")[0];
                                         const dateGigPlus = new Date(gig.dateGig)
                                         let month, day
                                         switch (selectedLanguage) {
