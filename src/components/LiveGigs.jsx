@@ -14,20 +14,20 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        {todayEvent !== null &&
-                            (
-                                <div>
-                                    {/*<h2 className="text-white mb-4">Questa sera</h2>*/}
-                                    <h3 className={'text-white'}>{todayEvent?.venueName}</h3>
-                                    <div style={{margin: '0 auto', marginBottom: 40}}>
-                                        <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
-                                            <img src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}
-                                             alt="" style={{width: 350}}/>
-                                        </a>
-                                    </div>
+                        {/*{todayEvent !== null &&*/}
+                        {/*    (*/}
+                        {/*        <div>*/}
+                        {/*            /!*<h2 className="text-white mb-4">Questa sera</h2>*!/*/}
+                        {/*            <h3 className={'text-white'}>{todayEvent?.venueName}</h3>*/}
+                        {/*            <div style={{margin: '0 auto', marginBottom: 40}}>*/}
+                        {/*                <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">*/}
+                        {/*                    <img src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}*/}
+                        {/*                     alt="" style={{width: 350}}/>*/}
+                        {/*                </a>*/}
+                        {/*            </div>*/}
 
-                                </div>
-                            )}
+                        {/*        </div>*/}
+                        {/*    )}*/}
                         <h2 className="text-white mb-4">{t('upcomingLiveDates')}</h2>
 
                         {futureEvents && futureEvents.length ? (
