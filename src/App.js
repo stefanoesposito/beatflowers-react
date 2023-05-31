@@ -54,7 +54,7 @@ function App() {
                     <HeroSection/>
                     <About/>
                     <MeetTheBand/>
-                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent} selectedLanguage={selectedLanguage}/>
+                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent} selectedLanguage={selectedLanguage} />
                     <Videos/>
                 </main>
                 <Footer currentYear={currentYear}/>
