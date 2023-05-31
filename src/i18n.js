@@ -25,6 +25,7 @@ const resources = {
             "Start": "Start:",
             "PastGigs": "Past live gigs",
             "Tonight": "Tonight",
+            "noFutureEventsSoFar": "No future events… so far! :)",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -62,6 +63,7 @@ const resources = {
             "Start": "Start:",
             "PastGigs": "Concerti passati",
             "Tonight": "Stasera",
+            "noFutureEventsSoFar": "Nessun evento futuro... per il momento! :)",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -100,6 +102,7 @@ const resources = {
             "Start": "Début:",
             "PastGigs": "Concerts passés",
             "Tonight": "Ce soir",
+            "noFutureEventsSoFar": "Aucun événement à venir... pour le moment ! :)",
             menu: {
                 "Home": "Accueil",
                 "About": "À propos",
@@ -136,6 +139,7 @@ const resources = {
             "Links": "Enlaces",
             "Start": "Inicio:",
             "PastGigs": "Conciertos pasados",
+            "noFutureEventsSoFar": "¡No hay eventos futuros... por el momento! :)",
             menu: {
                 "Home": "Inicio",
                 "About": "Nosotros",
@@ -173,6 +177,7 @@ const resources = {
             "Start": "Start:",
             "PastGigs": "Vergangene Auftritte",
             "Tonight": "Heute Abend",
+            "noFutureEventsSoFar": "Keine zukünftigen Veranstaltungen... im Moment! :)",
             menu: {
                 "Home": "Startseite",
                 "About": "Über uns",
@@ -210,6 +215,7 @@ const resources = {
             "Start": "Início:",
             "PastGigs": "Shows passados",
             "Tonight": "Hoje à noite",
+            "noFutureEventsSoFar": "Nenhum evento futuro... por enquanto! :)",
             menu: {
                 "Home": "Início",
                 "About": "Sobre",
@@ -247,6 +253,7 @@ const resources = {
             "Start": "スタート:",
             "PastGigs": "過去のライブ",
             "Tonight": "今夜",
+            "noFutureEventsSoFar": "将来のイベントはありません... とりあえず！ :)",
             menu: {
                 "Home": "ホーム",
                 "About": "について",
@@ -284,6 +291,7 @@ const resources = {
             "Start": "Start:",
             "PastGigs": "Tidigare spelningar",
             "Tonight": "Ikväll",
+            "noFutureEventsSoFar": "Inga framtida evenemang... för tillfället! :)",
             menu: {
                 "Home": "Hem",
                 "About": "Om oss",
@@ -322,6 +330,7 @@ const resources = {
             "Start": "Začátek:",
             "PastGigs": "Předchozí živé koncerty",
             "Tonight": "Dnes večer",
+            "noFutureEventsSoFar": "Žádné budoucí události... prozatím! :)",
             menu: {
                 "Home": "Domů",
                 "About": "O nás",
@@ -359,6 +368,7 @@ const resources = {
             "Start": "Start:",
             "PastGigs": "Vorige live-optredens",
             "Tonight": "Vanavond",
+            "noFutureEventsSoFar": "Geen toekomstige evenementen... op dit moment! :)",
             menu: {
                 "Home": "Home",
                 "About": "Over",
@@ -396,6 +406,7 @@ const resources = {
             "Start": "Początek:",
             "PastGigs": "Poprzednie koncerty",
             "Tonight": "Dziś wieczorem",
+            "noFutureEventsSoFar": "Brak przyszłych wydarzeń... na razie! :)",
             menu: {
                 "Home": "Strona główna",
                 "About": "O nas",
@@ -433,6 +444,7 @@ const resources = {
             "Start": "शुरू:",
             "PastGigs": "पिछले लाइव गिग्स",
             "Tonight": "आज रात",
+            "noFutureEventsSoFar": "कोई भविष्य की घटना नहीं... अभी के लिए! :)",
             menu: {
                 "Home": "होम",
                 "About": "हमारे बारे में",

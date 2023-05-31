@@ -34,7 +34,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
 
                         {isLoading ? <Loader color="white" size="xl"
                                              variant="bars"/> : futureEvents && futureEvents.length === 0 ?
-                            <h1 className={'text-white'}>No Future events… for the moment! :)</h1> : (
+                            <h1 className={'text-white'}>{t('noFutureEventsSoFar')}</h1> : (
                                 <>
                                     <h2 className="text-white mb-4">{t('upcomingLiveDates')}</h2>
                                     <div className="table-responsive">
