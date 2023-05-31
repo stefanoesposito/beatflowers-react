@@ -3,6 +3,17 @@ import {useTranslation} from 'react-i18next'
 
 const Footer = ({currentYear}) => {
     const { t } = useTranslation();
+
+    const handleAddToHomeScreen = () => {
+        if ('deferredPrompt' in window) {
+            window.deferredPrompt.prompt();
+            window.deferredPrompt.userChoice.then((choiceResult) => {
+                // Reset the deferredPrompt variable
+                window.deferredPrompt = null;
+            });
+        }
+    };
+
     return (
         <footer className="site-footer" id="section_6">
             <div className="site-footer-top">
@@ -77,6 +88,10 @@ const Footer = ({currentYear}) => {
 
                             <li className="site-footer-link-item">
                                 <a href="#section_6" className="site-footer-link">{t('menu.Contacts')}</a>
+                            </li>
+
+                            <li className="site-footer-link-item" onClick={handleAddToHomeScreen}>
+                                <i className="nav-link click-scroll text-white bi-box-arrow-down" style={{cursor: 'pointer'}} title={t('Install')}></i>
                             </li>
                         </ul>
 
