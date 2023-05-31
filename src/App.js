@@ -16,6 +16,7 @@ function App() {
     const {i18n} = useTranslation()
     const [gigs, setGigs] = useState([])
     const [isStickyInitialized, setIsStickyInitialized] = useState(false)
+    const [isLoading, setIsLoading] = useState(true)
     // const URL = 'https://script.google.com/macros/s/AKfycbzCxuZAmM6xE0HNRcPMPgFTshmMU5zryez-jVPloxrg4c9VHo3CsuSFhmlfmySfeHOn/exec'
     const URL = 'https://script.google.com/macros/s/AKfycbwZpeq4v_TSnjAgento9RmcukZJtClAuSq5jmswlKnkJMGaXxsuPLXoQ2Eq-7f07cuW/exec'
     const selectedLanguage = i18n.language
@@ -23,6 +24,7 @@ function App() {
         try {
             const response = await axios.get(URL)
             setGigs(response.data.data)
+            setIsLoading(false)
         } catch (error) {
             console.error(error)
         }
@@ -54,7 +56,7 @@ function App() {
                     <HeroSection/>
                     <About/>
                     <MeetTheBand/>
-                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent} selectedLanguage={selectedLanguage} />
+                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent} selectedLanguage={selectedLanguage} isLoading={isLoading} />
                     <Videos/>
                 </main>
                 <Footer currentYear={currentYear}/>
