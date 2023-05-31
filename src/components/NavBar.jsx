@@ -74,7 +74,7 @@ const NavBar = () => {
                         </li>
 
                         <li className="nav-item" onClick={handleAddToHomeScreen}>
-                            <i className="nav-link click-scroll text-white bi-box-arrow-down" style={{cursor: 'pointer'}}></i>
+                            <i className="nav-link click-scroll text-white bi-box-arrow-down" style={{cursor: 'pointer'}} title={t('Install')}></i>
                         </li>
                     </ul>
 

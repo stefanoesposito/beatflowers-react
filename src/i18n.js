@@ -26,6 +26,7 @@ const resources = {
             "PastGigs": "Past live gigs",
             "Tonight": "Tonight",
             "noFutureEventsSoFar": "No future events… so far! :)",
+            "Install": "Install",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -64,6 +65,7 @@ const resources = {
             "PastGigs": "Concerti passati",
             "Tonight": "Stasera",
             "noFutureEventsSoFar": "Nessun evento futuro... per il momento! :)",
+            "Install": "Installa",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -103,6 +105,7 @@ const resources = {
             "PastGigs": "Concerts passés",
             "Tonight": "Ce soir",
             "noFutureEventsSoFar": "Aucun événement à venir... pour le moment ! :)",
+            "Install": "Installer",
             menu: {
                 "Home": "Accueil",
                 "About": "À propos",
@@ -140,6 +143,7 @@ const resources = {
             "Start": "Inicio:",
             "PastGigs": "Conciertos pasados",
             "noFutureEventsSoFar": "¡No hay eventos futuros... por el momento! :)",
+            "Install": "Instalar",
             menu: {
                 "Home": "Inicio",
                 "About": "Nosotros",
@@ -178,6 +182,7 @@ const resources = {
             "PastGigs": "Vergangene Auftritte",
             "Tonight": "Heute Abend",
             "noFutureEventsSoFar": "Keine zukünftigen Veranstaltungen... im Moment! :)",
+            "Install": "Installieren",
             menu: {
                 "Home": "Startseite",
                 "About": "Über uns",
@@ -216,6 +221,7 @@ const resources = {
             "PastGigs": "Shows passados",
             "Tonight": "Hoje à noite",
             "noFutureEventsSoFar": "Nenhum evento futuro... por enquanto! :)",
+            "Install": "Instalar",
             menu: {
                 "Home": "Início",
                 "About": "Sobre",
@@ -254,6 +260,7 @@ const resources = {
             "PastGigs": "過去のライブ",
             "Tonight": "今夜",
             "noFutureEventsSoFar": "将来のイベントはありません... とりあえず！ :)",
+            "Install": "インストールする",
             menu: {
                 "Home": "ホーム",
                 "About": "について",
@@ -292,6 +299,7 @@ const resources = {
             "PastGigs": "Tidigare spelningar",
             "Tonight": "Ikväll",
             "noFutureEventsSoFar": "Inga framtida evenemang... för tillfället! :)",
+            "Install": "Installera",
             menu: {
                 "Home": "Hem",
                 "About": "Om oss",
@@ -331,6 +339,7 @@ const resources = {
             "PastGigs": "Předchozí živé koncerty",
             "Tonight": "Dnes večer",
             "noFutureEventsSoFar": "Žádné budoucí události... prozatím! :)",
+            "Install": "Instalovat",
             menu: {
                 "Home": "Domů",
                 "About": "O nás",
@@ -369,6 +378,7 @@ const resources = {
             "PastGigs": "Vorige live-optredens",
             "Tonight": "Vanavond",
             "noFutureEventsSoFar": "Geen toekomstige evenementen... op dit moment! :)",
+            "Install": "Installeren",
             menu: {
                 "Home": "Home",
                 "About": "Over",
@@ -407,6 +417,7 @@ const resources = {
             "PastGigs": "Poprzednie koncerty",
             "Tonight": "Dziś wieczorem",
             "noFutureEventsSoFar": "Brak przyszłych wydarzeń... na razie! :)",
+            "Install": "Instalować",
             menu: {
                 "Home": "Strona główna",
                 "About": "O nas",
@@ -445,6 +456,7 @@ const resources = {
             "PastGigs": "पिछले लाइव गिग्स",
             "Tonight": "आज रात",
             "noFutureEventsSoFar": "कोई भविष्य की घटना नहीं... अभी के लिए! :)",
+            "Install": "स्थापित करें",
             menu: {
                 "Home": "होम",
                 "About": "हमारे बारे में",
