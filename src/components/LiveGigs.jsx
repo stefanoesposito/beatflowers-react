@@ -9,25 +9,27 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
     const {t} = useTranslation()
 
 
+    console.log(todayEvent === null)
+
     return (
         <section className="schedule-section section-padding" id="section_4">
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        {/*{todayEvent !== null &&*/}
-                        {/*    (*/}
-                        {/*        <div>*/}
-                        {/*            /!*<h2 className="text-white mb-4">Questa sera</h2>*!/*/}
-                        {/*            <h3 className={'text-white'}>{todayEvent?.venueName}</h3>*/}
-                        {/*            <div style={{margin: '0 auto', marginBottom: 40}}>*/}
-                        {/*                <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">*/}
-                        {/*                    <img src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}*/}
-                        {/*                     alt="" style={{width: 350}}/>*/}
-                        {/*                </a>*/}
-                        {/*            </div>*/}
+                        {todayEvent !== null &&
+                            (
+                                <div>
+                                    <h2 className="text-white mb-4">{t('Tonight')}</h2>
+                                    <h3 className={'text-white mb-lg-4'}>Live @ {todayEvent?.venueName}</h3>
+                                    <div style={{margin: '0 auto', marginBottom: 40}}>
+                                        <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
+                                            <img src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}
+                                             alt="" style={{width: '90%'}}/>
+                                        </a>
+                                    </div>
 
-                        {/*        </div>*/}
-                        {/*    )}*/}
+                                </div>
+                            )}
                         <h2 className="text-white mb-4">{t('upcomingLiveDates')}</h2>
 
                         {futureEvents && futureEvents.length ? (

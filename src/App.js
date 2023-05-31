@@ -44,7 +44,7 @@ function App() {
 
     const futureEvents = gigs.futureEvents || []
     const pastEvents = gigs.pastEvents || []
-    const todayEvent = gigs.todayEvent || {}
+    const todayEvent = gigs.todayEvent || null
     return (
         <>
             <Fragment>

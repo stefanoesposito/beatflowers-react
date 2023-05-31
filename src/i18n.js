@@ -24,6 +24,7 @@ const resources = {
             "Links": "Links",
             "Start": "Start:",
             "PastGigs": "Past live gigs",
+            "Tonight": "Tonight",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -60,6 +61,7 @@ const resources = {
             "Links": "Link",
             "Start": "Start:",
             "PastGigs": "Concerti passati",
+            "Tonight": "Stasera",
         menu: {
             "Home": "Home",
             "About": "About",
@@ -97,6 +99,7 @@ const resources = {
             "Links": "Liens",
             "Start": "Début:",
             "PastGigs": "Concerts passés",
+            "Tonight": "Ce soir",
             menu: {
                 "Home": "Accueil",
                 "About": "À propos",
@@ -169,6 +172,7 @@ const resources = {
             "Links": "Links",
             "Start": "Start:",
             "PastGigs": "Vergangene Auftritte",
+            "Tonight": "Heute Abend",
             menu: {
                 "Home": "Startseite",
                 "About": "Über uns",
@@ -205,6 +209,7 @@ const resources = {
             "Links": "Links",
             "Start": "Início:",
             "PastGigs": "Shows passados",
+            "Tonight": "Hoje à noite",
             menu: {
                 "Home": "Início",
                 "About": "Sobre",
@@ -241,6 +246,7 @@ const resources = {
             "Links": "リンク",
             "Start": "スタート:",
             "PastGigs": "過去のライブ",
+            "Tonight": "今夜",
             menu: {
                 "Home": "ホーム",
                 "About": "について",
@@ -277,6 +283,7 @@ const resources = {
             "Links": "Länkar",
             "Start": "Start:",
             "PastGigs": "Tidigare spelningar",
+            "Tonight": "Ikväll",
             menu: {
                 "Home": "Hem",
                 "About": "Om oss",
@@ -314,6 +321,7 @@ const resources = {
             "Links": "Odkazy",
             "Start": "Začátek:",
             "PastGigs": "Předchozí živé koncerty",
+            "Tonight": "Dnes večer",
             menu: {
                 "Home": "Domů",
                 "About": "O nás",
@@ -350,6 +358,7 @@ const resources = {
             "Links": "Links",
             "Start": "Start:",
             "PastGigs": "Vorige live-optredens",
+            "Tonight": "Vanavond",
             menu: {
                 "Home": "Home",
                 "About": "Over",
@@ -386,6 +395,7 @@ const resources = {
             "Links": "Linki",
             "Start": "Początek:",
             "PastGigs": "Poprzednie koncerty",
+            "Tonight": "Dziś wieczorem",
             menu: {
                 "Home": "Strona główna",
                 "About": "O nas",
@@ -422,6 +432,7 @@ const resources = {
             "Links": "लिंक",
             "Start": "शुरू:",
             "PastGigs": "पिछले लाइव गिग्स",
+            "Tonight": "आज रात",
             menu: {
                 "Home": "होम",
                 "About": "हमारे बारे में",
