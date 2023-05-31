@@ -91,7 +91,7 @@ const Footer = ({currentYear}) => {
                             </li>
 
                             <li className="site-footer-link-item" onClick={handleAddToHomeScreen}>
-                                <i className="nav-link click-scroll text-white bi-box-arrow-down" style={{cursor: 'pointer'}} title={t('Install')}></i>
+                                <i className="nav-link click-scroll text-white bi-download" style={{cursor: 'pointer'}} title={t('Install')}></i>
                             </li>
                         </ul>
 
