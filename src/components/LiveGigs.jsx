@@ -15,7 +15,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        {todayEvent !== null ?
+                        {todayEvent !== null &&
                             (
                                 <div>
                                     <h2 className="text-white mb-4">Questa sera</h2>
@@ -28,7 +28,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage}) => {
                                     </div>
 
                                 </div>
-                            ) : null}
+                            )}
                         <h2 className="text-white mb-4">{t('upcomingLiveDates')}</h2>
 
                         {futureEvents && futureEvents.length ? (
