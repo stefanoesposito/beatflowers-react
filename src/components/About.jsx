@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+import {useTranslation} from 'react-i18next'
 
 const About = () => {
     const {t} = useTranslation()
@@ -37,7 +37,9 @@ const About = () => {
 
                             <div className="about-text-info d-flex">
                                 <div className="d-flex">
-                                    <i className="about-text-icon bi-play-circle"></i>
+                                    <a className={'about-text-icon'} href="#section_6">
+                                        <i className="text-white bi-whatsapp"></i>
+                                    </a>
                                 </div>
 
                                 <div className="ms-4">

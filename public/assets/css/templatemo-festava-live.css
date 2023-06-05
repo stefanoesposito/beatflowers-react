@@ -23,6 +23,7 @@ https://templatemo.com/tm-583-festava-live
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
   --dark-color:                   #000000;
+  --green-color:                  #25D366;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
   --link-hover-color: #ffd815;
@@ -532,12 +533,12 @@ strong {
 }
 
 .about-text-icon {
-  background: var(--primary-color);
+  background: var(--green-color);
   border-radius: 100%;
   font-size: var(--h3-font-size);
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
+  width: 60px;
+  height: 60px;
+  line-height:60px;
   text-align: center;
 }
 
@@ -552,13 +553,17 @@ strong {
   right: 0;
   left: 0;
   margin: 20px;
-  padding: 35px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 767px) {
   .about-text-info {
     padding: 9px;
   }
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 
