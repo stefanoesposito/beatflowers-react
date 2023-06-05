@@ -117,7 +117,7 @@ export const initializeStickyNavbar = (jQuery) => {
                         } else {
                             newTop = s.topSpacing;
                         }
-                        if (s.currentTop != newTop) {
+                        if (s.currentTop !== newTop) {
                             let newWidth;
                             if (s.getWidthFrom) {
                                 newWidth = $(s.getWidthFrom).width() || null;
@@ -193,7 +193,7 @@ export const initializeStickyNavbar = (jQuery) => {
                             stickyWrapper.css({width:stickyElement.outerWidth(),marginLeft:"auto",marginRight:"auto"});
                         }
 
-                        if (stickyElement.css("float") == "right") {
+                        if (stickyElement.css("float") === "right") {
                             stickyElement.css({"float":"none"}).parent().css({"float":"right"});
                         }
 
@@ -220,7 +220,7 @@ export const initializeStickyNavbar = (jQuery) => {
                                 removeIdx = i;
                             }
                         }
-                        if(removeIdx != -1) {
+                        if(removeIdx !== -1) {
                             unstickyElement.unwrap();
                             unstickyElement
                                 .css({

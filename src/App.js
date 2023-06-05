@@ -14,7 +14,7 @@ import Header from './components/Header'
 import CookieConsent from "react-cookie-consent";
 
 function App() {
-    const {i18n} = useTranslation()
+    const {t, i18n} = useTranslation()
     const [gigs, setGigs] = useState([])
     const [isStickyInitialized, setIsStickyInitialized] = useState(false)
     const [isLoading, setIsLoading] = useState(true)
@@ -52,15 +52,15 @@ function App() {
         <>
             <CookieConsent
                 location="bottom"
-                buttonText="OK"
+                buttonText={t('cookieStrip.OK')}
+                declineButtonText={t('cookieStrip.Decline')}
                 cookieName="myAwesomeCookieName2"
                 style={{ background: "#2B373B" }}
                 buttonStyle={{ color: "#4e503b", fontSize: 13 }}
                 expires={150}
                 enableDeclineButton
             >
-                This website uses cookies to enhance the user experience.
-                {/*<span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span>*/}
+                {t('cookieStrip.Text')}
             </CookieConsent>
             <Fragment>
                 <main>
