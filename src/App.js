@@ -11,6 +11,7 @@ import LiveGigs from './components/LiveGigs'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import Header from './components/Header'
+import CookieConsent from "react-cookie-consent";
 
 function App() {
     const {i18n} = useTranslation()
@@ -49,6 +50,18 @@ function App() {
     const todayEvent = gigs.todayEvent || null
     return (
         <>
+            <CookieConsent
+                location="bottom"
+                buttonText="OK"
+                cookieName="myAwesomeCookieName2"
+                style={{ background: "#2B373B" }}
+                buttonStyle={{ color: "#4e503b", fontSize: 13 }}
+                expires={150}
+                enableDeclineButton
+            >
+                This website uses cookies to enhance the user experience.
+                {/*<span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span>*/}
+            </CookieConsent>
             <Fragment>
                 <main>
                     <Header/>
