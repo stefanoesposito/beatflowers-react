@@ -311,233 +311,233 @@ const resources = {
                 'OK': 'OK'
             },
         },
-        'sv': {
-            translation: {
-                'letsBegin': 'Låt oss börja',
-                'Follow': 'Följ',
-                'aBeatlesCoverTrioTitle': 'En Beatles Cover Trio med en unik ljudbild',
-                'aBeatlesCoverTrioDescription': 'Beat FlowerS är en Beatlemania akustisk trio baserad i Neapel, Italien. De spelar låtarna från det legendariska bandet med en unik twist - de använder gitarr, cello och minimalt med trummor för att skapa en ljudbild som både är bekant och fräsch.',
-                'whoTheyAre': 'Vem de är',
-                'whoTheyAreDescription': 'Trion består av Patrizio Buonaiuto på sång och minimala trummor, Marco Di Palo på cello och sång, och Stefano Esposito på akustisk gitarr och sång. Tillsammans har de skapat en ljudbild som verkligen är deras egen.',
-                'aUniqueTitle': 'En unik liveupplevelse',
-                'aUniqueDescription': 'Det som skiljer Beat FlowerS från andra Beatles-coverband är deras användning av cello i sina arrangemang. Detta ger en djup och fyllighet till musiken som sällan hörs i traditionella rockband. Deras minimala användning av trummor låter även sången och instrumenten lysa igenom och skapar en avskalad ljudbild som både är intim och kraftfull. Om du är en fan av The Beatles och letar efter en ny tolkning av deras klassiska låtar är Beat FlowerS definitivt värt att kolla in!',
-                'meetTheBand': 'Träffa bandet',
-                'hireUs': 'Anlita oss!',
-                'yourAmazingLiveExperience': 'Din fantastiska liveupplevelse med oss!',
-                'upcomingLiveDates': 'Kommande spelningar',
-                'Date': 'Datum',
-                'Location': 'Plats',
-                'Links': 'Länkar',
-                'Start': 'Start:',
-                'PastGigs': 'Tidigare spelningar',
-                'Tonight': 'Ikväll',
-                'noFutureEventsSoFar': 'Inga framtida evenemang... för tillfället! :)',
-                'Install': 'Installera',
-                menu: {
-                    'Home': 'Hem',
-                    'About': 'Om oss',
-                    'Band': 'Band',
-                    'Live': 'Live',
-                    'Videos': 'Videor',
-                    'Contacts': 'Kontakt',
-                },
-
-                band: {
-                    'Name': 'Namn:',
-                    'Instrument': 'Instrument:',
-                    'InstrumentPat': 'Sång, minimala trummor',
-                    'InstrumentMarco': 'Cello och sång',
-                    'InstrumentStefano': 'Akustisk gitarr och sång',
-                },
-                cookieStrip: {
-                    'Text': 'Denna webbplats använder cookies för att förbättra användarupplevelsen.',
-                    'Decline': 'Jag avböjer',
-                    'OK': 'OK'
-                }
-
-
-            }
-        },
-        'cs': {
-            translation: {
-                'letsBegin': 'Začněme',
-                'Follow': 'Sledovat',
-                'aBeatlesCoverTrioTitle': 'Trio coverů Beatles s unikátním zvukem',
-                'aBeatlesCoverTrioDescription': 'Beat FlowerS je akustické trio Beatlemanie se sídlem v Neapoli, Itálie. Hrají písně legendární kapely s unikátním překvapením - používají kytaru, violoncello a minimální bicí nástroje pro vytvoření zvuku, který je zároveň povědomý a svěží.',
-                'whoTheyAre': 'Kdo jsou',
-                'whoTheyAreDescription': 'Trio se skládá z Patrizia Buonaiuta na vokálech a minimálních bicích nástrojích, Marca Di Pala na violoncellu a vokálech a Stefana Esposita na akustické kytarě a vokálech. Společně vytvořili zvuk, který je opravdu jejich vlastní.',
-                'aUniqueTitle': 'Jedinečný živý zážitek',
-                'aUniqueDescription': 'To, co odlišuje Beat FlowerS od ostatních cover kapel Beatles, je jejich použití violoncella ve svých aranžmá. To přidává hudbě hloubku a bohatství, které často nelze slyšet v tradičních rockových kapelách. Jejich minimální použití bicích nástrojů také umožňuje zpěvům a nástrojům zazářit, vytvářející střídmý zvuk, který je zároveň intimní a silný. Pokud jste fanouškem Beatles a hledáte novou interpretaci jejich klasických písní, pak určitě stojí za to si Beat FlowerS poslechnout!',
-                'meetTheBand': 'Potkejte kapelu',
-                'hireUs': 'Najměte nás!',
-                'yourAmazingLiveExperience': 'Vaše úžasný živý zážitek s námi!',
-                'upcomingLiveDates': 'Nadcházející živé koncerty',
-                'Date': 'Datum',
-                'Location': 'Místo',
-                'Links': 'Odkazy',
-                'Start': 'Začátek:',
-                'PastGigs': 'Předchozí živé koncerty',
-                'Tonight': 'Dnes večer',
-                'noFutureEventsSoFar': 'Žádné budoucí události... prozatím! :)',
-                'Install': 'Instalovat',
-                menu: {
-                    'Home': 'Domů',
-                    'About': 'O nás',
-                    'Band': 'Kapela',
-                    'Live': 'Živě',
-                    'Videos': 'Videa',
-                    'Contacts': 'Kontakty'
-                },
-                band: {
-                    'Name': 'Jméno:',
-                    'Instrument': 'Nástroj:',
-                    'InstrumentPat': 'Vokály, Minimální bicí nástroje',
-                    'InstrumentMarco': 'Violoncello a Vokály',
-                    'InstrumentStefano': 'Akustická kytara a Vokály'
-                },
-                cookieStrip: {
-                    'Text': 'Tato webová stránka používá soubory cookie ke zlepšení uživatelského zážitku.',
-                    'Decline': 'Nesouhlasím',
-                    'OK': 'OK'
-                }
-            }
-        },
-        'nl': {
-            translation: {
-                'letsBegin': 'Laten we beginnen',
-                'Follow': 'Volgen',
-                'aBeatlesCoverTrioTitle': 'Een Beatles Cover Trio met een Uniek Geluid',
-                'aBeatlesCoverTrioDescription': 'Beat FlowerS is een akoestisch trio uit Napels, Italië, dat zich toelegt op Beatlemania. Ze spelen de nummers van de legendarische band met een unieke twist - gebruikmakend van gitaar, cello en minimale drums om een geluid te creëren dat zowel vertrouwd als fris is.',
-                'whoTheyAre': 'Wie ze zijn',
-                'whoTheyAreDescription': 'Het trio bestaat uit Patrizio Buonaiuto op zang en minimale drums, Marco Di Palo op cello en zang, en Stefano Esposito op akoestische gitaar en zang. Samen hebben ze een geluid gecreëerd dat echt van henzelf is.',
-                'aUniqueTitle': 'Een Unieke Live-ervaring',
-                'aUniqueDescription': 'Wat Beat FlowerS onderscheidt van andere Beatles coverbands is het gebruik van cello in hun arrangementen. Dit voegt diepte en rijkdom toe aan de muziek die niet vaak te horen is in traditionele rockbands. Hun minimale gebruik van drums laat ook de zang en instrumenten schitteren, waardoor een ingetogen geluid ontstaat dat zowel intiem als krachtig is. Als je een fan bent van The Beatles en op zoek bent naar een nieuwe interpretatie van hun klassieke nummers, dan is Beat FlowerS zeker het ontdekken waard!',
-                'meetTheBand': 'Ontmoet de Band',
-                'hireUs': 'Huur ons in!',
-                'yourAmazingLiveExperience': 'Jouw geweldige live-ervaring met ons!',
-                'upcomingLiveDates': 'Komende live-data',
-                'Date': 'Datum',
-                'Location': 'Locatie',
-                'Links': 'Links',
-                'Start': 'Start:',
-                'PastGigs': 'Vorige live-optredens',
-                'Tonight': 'Vanavond',
-                'noFutureEventsSoFar': 'Geen toekomstige evenementen... op dit moment! :)',
-                'Install': 'Installeren',
-                menu: {
-                    'Home': 'Home',
-                    'About': 'Over',
-                    'Band': 'Band',
-                    'Live': 'Live',
-                    'Videos': 'Video\'s',
-                    'Contacts': 'Contacten'
-                },
-                band: {
-                    'Name': 'Naam:',
-                    'Instrument': 'Instrument:',
-                    'InstrumentPat': 'Zang, Minimale Drums',
-                    'InstrumentMarco': 'Cello en Zang',
-                    'InstrumentStefano': 'Akoestische Gitaar en Zang'
-                },
-                cookieStrip: {
-                    'Text': 'Deze website maakt gebruik van cookies om de gebruikerservaring te verbeteren.',
-                    'Decline': 'Ik weiger',
-                    'OK': 'OK'
-                }
-            }
-        },
-        'pl': {
-            translation: {
-                'letsBegin': 'Zaczynajmy',
-                'Follow': 'Obserwuj',
-                'aBeatlesCoverTrioTitle': 'Trio coverowe zespołu Beatles o unikalnym brzmieniu',
-                'aBeatlesCoverTrioDescription': 'Beat FlowerS to akustyczne trio Beatlemanii z siedzibą w Neapolu we Włoszech. Grają piosenki legendarnego zespołu w niepowtarzalny sposób - wykorzystując gitarę, wiolonczelę i minimalne perkusjonalia, tworzą dźwięk, który jest zarówno znajomy, jak i świeży.',
-                'whoTheyAre': 'Kim są',
-                'whoTheyAreDescription': 'Trio składa się z Patrizio Buonaiuto - wokal i minimalne perkusjonalia, Marco Di Palo - wiolonczela i wokal oraz Stefano Esposito - gitara akustyczna i wokal. Razem stworzyli dźwięk, który jest prawdziwie ich własny.',
-                'aUniqueTitle': 'Niezwykłe doświadczenie na żywo',
-                'aUniqueDescription': 'To, co wyróżnia Beat FlowerS spośród innych zespołów coverowych Beatles, to wykorzystanie wiolonczeli w swoich aranżacjach. Dodaje to głębi i bogactwa muzycznego, które rzadko słychać w tradycyjnych zespołach rockowych. Minimalne użycie perkusji pozwala również na wyeksponowanie wokalu i instrumentów, tworząc prosty, intymny i potężny dźwięk. Jeśli jesteś fanem The Beatles i szukasz nowej interpretacji ich klasycznych utworów, to koniecznie sprawdź Beat FlowerS!',
-                'meetTheBand': 'Poznaj zespół',
-                'hireUs': 'Zatrudnij nas!',
-                'yourAmazingLiveExperience': 'Twoje niesamowite wrażenia na żywo z nami!',
-                'upcomingLiveDates': 'Nadchodzące koncerty',
-                'Date': 'Data',
-                'Location': 'Lokalizacja',
-                'Links': 'Linki',
-                'Start': 'Początek:',
-                'PastGigs': 'Poprzednie koncerty',
-                'Tonight': 'Dziś wieczorem',
-                'noFutureEventsSoFar': 'Brak przyszłych wydarzeń... na razie! :)',
-                'Install': 'Instalować',
-                menu: {
-                    'Home': 'Strona główna',
-                    'About': 'O nas',
-                    'Band': 'Zespół',
-                    'Live': 'Koncerty',
-                    'Videos': 'Filmy',
-                    'Contacts': 'Kontakt'
-                },
-                band: {
-                    'Name': 'Imię:',
-                    'Instrument': 'Instrument:',
-                    'InstrumentPat': 'Wokal, Minimalne perkusjonalia',
-                    'InstrumentMarco': 'Wiolonczela i Wokal',
-                    'InstrumentStefano': 'Gitara akustyczna i Wokal',
-                },
-                cookieStrip: {
-                    'Text': 'Ta witryna używa plików cookie w celu ulepszenia doświadczenia użytkownika.',
-                    'Decline': 'Odmawiam',
-                    'OK': 'OK'
-                }
-
-
+    },
+    'sv': {
+        translation: {
+            'letsBegin': 'Låt oss börja',
+            'Follow': 'Följ',
+            'aBeatlesCoverTrioTitle': 'En Beatles Cover Trio med en unik ljudbild',
+            'aBeatlesCoverTrioDescription': 'Beat FlowerS är en Beatlemania akustisk trio baserad i Neapel, Italien. De spelar låtarna från det legendariska bandet med en unik twist - de använder gitarr, cello och minimalt med trummor för att skapa en ljudbild som både är bekant och fräsch.',
+            'whoTheyAre': 'Vem de är',
+            'whoTheyAreDescription': 'Trion består av Patrizio Buonaiuto på sång och minimala trummor, Marco Di Palo på cello och sång, och Stefano Esposito på akustisk gitarr och sång. Tillsammans har de skapat en ljudbild som verkligen är deras egen.',
+            'aUniqueTitle': 'En unik liveupplevelse',
+            'aUniqueDescription': 'Det som skiljer Beat FlowerS från andra Beatles-coverband är deras användning av cello i sina arrangemang. Detta ger en djup och fyllighet till musiken som sällan hörs i traditionella rockband. Deras minimala användning av trummor låter även sången och instrumenten lysa igenom och skapar en avskalad ljudbild som både är intim och kraftfull. Om du är en fan av The Beatles och letar efter en ny tolkning av deras klassiska låtar är Beat FlowerS definitivt värt att kolla in!',
+            'meetTheBand': 'Träffa bandet',
+            'hireUs': 'Anlita oss!',
+            'yourAmazingLiveExperience': 'Din fantastiska liveupplevelse med oss!',
+            'upcomingLiveDates': 'Kommande spelningar',
+            'Date': 'Datum',
+            'Location': 'Plats',
+            'Links': 'Länkar',
+            'Start': 'Start:',
+            'PastGigs': 'Tidigare spelningar',
+            'Tonight': 'Ikväll',
+            'noFutureEventsSoFar': 'Inga framtida evenemang... för tillfället! :)',
+            'Install': 'Installera',
+            menu: {
+                'Home': 'Hem',
+                'About': 'Om oss',
+                'Band': 'Band',
+                'Live': 'Live',
+                'Videos': 'Videor',
+                'Contacts': 'Kontakt',
             },
+            band: {
+                'Name': 'Namn:',
+                'Instrument': 'Instrument:',
+                'InstrumentPat': 'Sång, minimala trummor',
+                'InstrumentMarco': 'Cello och sång',
+                'InstrumentStefano': 'Akustisk gitarr och sång',
+            },
+            cookieStrip: {
+                'Text': 'Denna webbplats använder cookies för att förbättra användarupplevelsen.',
+                'Decline': 'Jag avböjer',
+                'OK': 'OK'
+            }
+
+
+        }
+    },
+    'cs': {
+        translation: {
+            'letsBegin': 'Začněme',
+            'Follow': 'Sledovat',
+            'aBeatlesCoverTrioTitle': 'Trio coverů Beatles s unikátním zvukem',
+            'aBeatlesCoverTrioDescription': 'Beat FlowerS je akustické trio Beatlemanie se sídlem v Neapoli, Itálie. Hrají písně legendární kapely s unikátním překvapením - používají kytaru, violoncello a minimální bicí nástroje pro vytvoření zvuku, který je zároveň povědomý a svěží.',
+            'whoTheyAre': 'Kdo jsou',
+            'whoTheyAreDescription': 'Trio se skládá z Patrizia Buonaiuta na vokálech a minimálních bicích nástrojích, Marca Di Pala na violoncellu a vokálech a Stefana Esposita na akustické kytarě a vokálech. Společně vytvořili zvuk, který je opravdu jejich vlastní.',
+            'aUniqueTitle': 'Jedinečný živý zážitek',
+            'aUniqueDescription': 'To, co odlišuje Beat FlowerS od ostatních cover kapel Beatles, je jejich použití violoncella ve svých aranžmá. To přidává hudbě hloubku a bohatství, které často nelze slyšet v tradičních rockových kapelách. Jejich minimální použití bicích nástrojů také umožňuje zpěvům a nástrojům zazářit, vytvářející střídmý zvuk, který je zároveň intimní a silný. Pokud jste fanouškem Beatles a hledáte novou interpretaci jejich klasických písní, pak určitě stojí za to si Beat FlowerS poslechnout!',
+            'meetTheBand': 'Potkejte kapelu',
+            'hireUs': 'Najměte nás!',
+            'yourAmazingLiveExperience': 'Vaše úžasný živý zážitek s námi!',
+            'upcomingLiveDates': 'Nadcházející živé koncerty',
+            'Date': 'Datum',
+            'Location': 'Místo',
+            'Links': 'Odkazy',
+            'Start': 'Začátek:',
+            'PastGigs': 'Předchozí živé koncerty',
+            'Tonight': 'Dnes večer',
+            'noFutureEventsSoFar': 'Žádné budoucí události... prozatím! :)',
+            'Install': 'Instalovat',
+            menu: {
+                'Home': 'Domů',
+                'About': 'O nás',
+                'Band': 'Kapela',
+                'Live': 'Živě',
+                'Videos': 'Videa',
+                'Contacts': 'Kontakty'
+            },
+            band: {
+                'Name': 'Jméno:',
+                'Instrument': 'Nástroj:',
+                'InstrumentPat': 'Vokály, Minimální bicí nástroje',
+                'InstrumentMarco': 'Violoncello a Vokály',
+                'InstrumentStefano': 'Akustická kytara a Vokály'
+            },
+            cookieStrip: {
+                'Text': 'Tato webová stránka používá soubory cookie ke zlepšení uživatelského zážitku.',
+                'Decline': 'Nesouhlasím',
+                'OK': 'OK'
+            }
+        }
+    },
+    'nl': {
+        translation: {
+            'letsBegin': 'Laten we beginnen',
+            'Follow': 'Volgen',
+            'aBeatlesCoverTrioTitle': 'Een Beatles Cover Trio met een Uniek Geluid',
+            'aBeatlesCoverTrioDescription': 'Beat FlowerS is een akoestisch trio uit Napels, Italië, dat zich toelegt op Beatlemania. Ze spelen de nummers van de legendarische band met een unieke twist - gebruikmakend van gitaar, cello en minimale drums om een geluid te creëren dat zowel vertrouwd als fris is.',
+            'whoTheyAre': 'Wie ze zijn',
+            'whoTheyAreDescription': 'Het trio bestaat uit Patrizio Buonaiuto op zang en minimale drums, Marco Di Palo op cello en zang, en Stefano Esposito op akoestische gitaar en zang. Samen hebben ze een geluid gecreëerd dat echt van henzelf is.',
+            'aUniqueTitle': 'Een Unieke Live-ervaring',
+            'aUniqueDescription': 'Wat Beat FlowerS onderscheidt van andere Beatles coverbands is het gebruik van cello in hun arrangementen. Dit voegt diepte en rijkdom toe aan de muziek die niet vaak te horen is in traditionele rockbands. Hun minimale gebruik van drums laat ook de zang en instrumenten schitteren, waardoor een ingetogen geluid ontstaat dat zowel intiem als krachtig is. Als je een fan bent van The Beatles en op zoek bent naar een nieuwe interpretatie van hun klassieke nummers, dan is Beat FlowerS zeker het ontdekken waard!',
+            'meetTheBand': 'Ontmoet de Band',
+            'hireUs': 'Huur ons in!',
+            'yourAmazingLiveExperience': 'Jouw geweldige live-ervaring met ons!',
+            'upcomingLiveDates': 'Komende live-data',
+            'Date': 'Datum',
+            'Location': 'Locatie',
+            'Links': 'Links',
+            'Start': 'Start:',
+            'PastGigs': 'Vorige live-optredens',
+            'Tonight': 'Vanavond',
+            'noFutureEventsSoFar': 'Geen toekomstige evenementen... op dit moment! :)',
+            'Install': 'Installeren',
+            menu: {
+                'Home': 'Home',
+                'About': 'Over',
+                'Band': 'Band',
+                'Live': 'Live',
+                'Videos': 'Video\'s',
+                'Contacts': 'Contacten'
+            },
+            band: {
+                'Name': 'Naam:',
+                'Instrument': 'Instrument:',
+                'InstrumentPat': 'Zang, Minimale Drums',
+                'InstrumentMarco': 'Cello en Zang',
+                'InstrumentStefano': 'Akoestische Gitaar en Zang'
+            },
+            cookieStrip: {
+                'Text': 'Deze website maakt gebruik van cookies om de gebruikerservaring te verbeteren.',
+                'Decline': 'Ik weiger',
+                'OK': 'OK'
+            }
+        }
+    },
+    'pl': {
+        translation: {
+            'letsBegin': 'Zaczynajmy',
+            'Follow': 'Obserwuj',
+            'aBeatlesCoverTrioTitle': 'Trio coverowe zespołu Beatles o unikalnym brzmieniu',
+            'aBeatlesCoverTrioDescription': 'Beat FlowerS to akustyczne trio Beatlemanii z siedzibą w Neapolu we Włoszech. Grają piosenki legendarnego zespołu w niepowtarzalny sposób - wykorzystując gitarę, wiolonczelę i minimalne perkusjonalia, tworzą dźwięk, który jest zarówno znajomy, jak i świeży.',
+            'whoTheyAre': 'Kim są',
+            'whoTheyAreDescription': 'Trio składa się z Patrizio Buonaiuto - wokal i minimalne perkusjonalia, Marco Di Palo - wiolonczela i wokal oraz Stefano Esposito - gitara akustyczna i wokal. Razem stworzyli dźwięk, który jest prawdziwie ich własny.',
+            'aUniqueTitle': 'Niezwykłe doświadczenie na żywo',
+            'aUniqueDescription': 'To, co wyróżnia Beat FlowerS spośród innych zespołów coverowych Beatles, to wykorzystanie wiolonczeli w swoich aranżacjach. Dodaje to głębi i bogactwa muzycznego, które rzadko słychać w tradycyjnych zespołach rockowych. Minimalne użycie perkusji pozwala również na wyeksponowanie wokalu i instrumentów, tworząc prosty, intymny i potężny dźwięk. Jeśli jesteś fanem The Beatles i szukasz nowej interpretacji ich klasycznych utworów, to koniecznie sprawdź Beat FlowerS!',
+            'meetTheBand': 'Poznaj zespół',
+            'hireUs': 'Zatrudnij nas!',
+            'yourAmazingLiveExperience': 'Twoje niesamowite wrażenia na żywo z nami!',
+            'upcomingLiveDates': 'Nadchodzące koncerty',
+            'Date': 'Data',
+            'Location': 'Lokalizacja',
+            'Links': 'Linki',
+            'Start': 'Początek:',
+            'PastGigs': 'Poprzednie koncerty',
+            'Tonight': 'Dziś wieczorem',
+            'noFutureEventsSoFar': 'Brak przyszłych wydarzeń... na razie! :)',
+            'Install': 'Instalować',
+            menu: {
+                'Home': 'Strona główna',
+                'About': 'O nas',
+                'Band': 'Zespół',
+                'Live': 'Koncerty',
+                'Videos': 'Filmy',
+                'Contacts': 'Kontakt'
+            },
+            band: {
+                'Name': 'Imię:',
+                'Instrument': 'Instrument:',
+                'InstrumentPat': 'Wokal, Minimalne perkusjonalia',
+                'InstrumentMarco': 'Wiolonczela i Wokal',
+                'InstrumentStefano': 'Gitara akustyczna i Wokal',
+            },
+            cookieStrip: {
+                'Text': 'Ta witryna używa plików cookie w celu ulepszenia doświadczenia użytkownika.',
+                'Decline': 'Odmawiam',
+                'OK': 'OK'
+            }
+
+
         },
-        'hi': {
-            translation: {
-                'letsBegin': 'चलो शुरू करें',
-                'Follow': 'फ़ॉलो करें',
-                'aBeatlesCoverTrioTitle': 'एक बीटल्स कवर त्रयी जिसमें एक अद्वितीय ध्वनि है',
-                'aBeatlesCoverTrioDescription': 'बीट फ्लावर्स एक नापोली, इटली में स्थित बीटलमेनिया एकूस्टिक त्रयी है। वे मशहूर बैंड के गाने एक अद्वितीय अंदाज में बजाते हैं - गिटार, चेलो और कम ड्रम्स का उपयोग करके एक ऐसी ध्वनि बनाते हैं जो परिचित और ताजगी से भरी होती है।',
-                'whoTheyAre': 'वे कौन हैं',
-                'whoTheyAreDescription': 'त्रयी में पैट्रिजियो बुएनाइटो गायन और कम ड्रम्स, मार्को दी पालो चेलो और गायन, और स्टेफानो एस्पोजितो एकूस्टिक गिटार और गायन पर हैं। इसके साथ, वे एक ऐसी ध्वनि बनाए हैं जो सचमुच खुद की है।',
-                'aUniqueTitle': 'एक अद्वितीय लाइव अनुभव',
-                'aUniqueDescription': 'बीट फ्लावर्स को अन्य बीटल्स कवर बैंड से अलग बनाता है उनके इंटरवेंशन में चेलो का उपयोग। यह ध्वनि में एक गहराह और समृद्धि जोड़ता है जो पारंपरिक रॉक बैंड में अक्सर नहीं सुनी जाती है। उनके कम ड्रम्स का उपयोग भी अवाज और वाद्ययंत्रों को बहार आने देता है, जो एक निर्मल और शक्तिशाली ध्वनि बनाता है। यदि आप बीटल्स के प्रशंसक हैं और उनके क्लासिक गानों का एक नया रूप देख रहे हैं, तो बीट फ्लावर्स को जरूर देखने योग्य माना जाता है!',
-                'meetTheBand': 'बैंड से मिलें',
-                'hireUs': 'हमें किराए पर लें!',
-                'yourAmazingLiveExperience': 'हमारे साथ आपका अद्भुत लाइव अनुभव!',
-                'upcomingLiveDates': 'आगामी लाइव तिथियाँ',
-                'Date': 'तारीख',
-                'Location': 'स्थान',
-                'Links': 'लिंक',
-                'Start': 'शुरू:',
-                'PastGigs': 'पिछले लाइव गिग्स',
-                'Tonight': 'आज रात',
-                'noFutureEventsSoFar': 'कोई भविष्य की घटना नहीं... अभी के लिए! :)',
-                'Install': 'स्थापित करें',
-                menu: {
-                    'Home': 'होम',
-                    'About': 'हमारे बारे में',
-                    'Band': 'बैंड',
-                    'Live': 'लाइव',
-                    'Videos': 'वीडियो',
-                    'Contacts': 'संपर्क'
-                },
-                band: {
-                    'Name': 'नाम:',
-                    'Instrument': 'उपकरण:',
-                    'InstrumentPat': 'गायन, कम ड्रम्स',
-                    'InstrumentMarco': 'चेलो और गायन',
-                    'InstrumentStefano': 'एकूस्टिक गिटार और गायन'
-                },
-                cookieStrip: {
-                    'Text': 'इस वेबसाइट को उपयोगकर्ता अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करती है।',
-                    'Decline': 'मैं इनकार करता हूँ',
-                    'OK': 'ठीक है'
-                }
+    },
+    'hi': {
+        translation: {
+            'letsBegin': 'चलो शुरू करें',
+            'Follow': 'फ़ॉलो करें',
+            'aBeatlesCoverTrioTitle': 'एक बीटल्स कवर त्रयी जिसमें एक अद्वितीय ध्वनि है',
+            'aBeatlesCoverTrioDescription': 'बीट फ्लावर्स एक नापोली, इटली में स्थित बीटलमेनिया एकूस्टिक त्रयी है। वे मशहूर बैंड के गाने एक अद्वितीय अंदाज में बजाते हैं - गिटार, चेलो और कम ड्रम्स का उपयोग करके एक ऐसी ध्वनि बनाते हैं जो परिचित और ताजगी से भरी होती है।',
+            'whoTheyAre': 'वे कौन हैं',
+            'whoTheyAreDescription': 'त्रयी में पैट्रिजियो बुएनाइटो गायन और कम ड्रम्स, मार्को दी पालो चेलो और गायन, और स्टेफानो एस्पोजितो एकूस्टिक गिटार और गायन पर हैं। इसके साथ, वे एक ऐसी ध्वनि बनाए हैं जो सचमुच खुद की है।',
+            'aUniqueTitle': 'एक अद्वितीय लाइव अनुभव',
+            'aUniqueDescription': 'बीट फ्लावर्स को अन्य बीटल्स कवर बैंड से अलग बनाता है उनके इंटरवेंशन में चेलो का उपयोग। यह ध्वनि में एक गहराह और समृद्धि जोड़ता है जो पारंपरिक रॉक बैंड में अक्सर नहीं सुनी जाती है। उनके कम ड्रम्स का उपयोग भी अवाज और वाद्ययंत्रों को बहार आने देता है, जो एक निर्मल और शक्तिशाली ध्वनि बनाता है। यदि आप बीटल्स के प्रशंसक हैं और उनके क्लासिक गानों का एक नया रूप देख रहे हैं, तो बीट फ्लावर्स को जरूर देखने योग्य माना जाता है!',
+            'meetTheBand': 'बैंड से मिलें',
+            'hireUs': 'हमें किराए पर लें!',
+            'yourAmazingLiveExperience': 'हमारे साथ आपका अद्भुत लाइव अनुभव!',
+            'upcomingLiveDates': 'आगामी लाइव तिथियाँ',
+            'Date': 'तारीख',
+            'Location': 'स्थान',
+            'Links': 'लिंक',
+            'Start': 'शुरू:',
+            'PastGigs': 'पिछले लाइव गिग्स',
+            'Tonight': 'आज रात',
+            'noFutureEventsSoFar': 'कोई भविष्य की घटना नहीं... अभी के लिए! :)',
+            'Install': 'स्थापित करें',
+            menu: {
+                'Home': 'होम',
+                'About': 'हमारे बारे में',
+                'Band': 'बैंड',
+                'Live': 'लाइव',
+                'Videos': 'वीडियो',
+                'Contacts': 'संपर्क'
+            },
+            band: {
+                'Name': 'नाम:',
+                'Instrument': 'उपकरण:',
+                'InstrumentPat': 'गायन, कम ड्रम्स',
+                'InstrumentMarco': 'चेलो और गायन',
+                'InstrumentStefano': 'एकूस्टिक गिटार और गायन'
+            },
+            cookieStrip: {
+                'Text': 'इस वेबसाइट को उपयोगकर्ता अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करती है।',
+                'Decline': 'मैं इनकार करता हूँ',
+                'OK': 'ठीक है'
             }
         }
     }
 }
+
 
 i18n.use(initReactI18next).init({
     resources,
