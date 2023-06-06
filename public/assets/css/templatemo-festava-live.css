@@ -726,7 +726,7 @@ strong {
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/artists/marco-di-palo.jpeg');
+  background-image: url('../images/artists/marco-di-palo-table.jpeg');
 }
 
 .schedule-table .rock-background-image {
@@ -802,7 +802,6 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  /*background-image: url('../images/artists/marco-di-palo.jpeg');*/
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
