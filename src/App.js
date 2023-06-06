@@ -78,7 +78,7 @@ function App() {
                 <Footer currentYear={currentYear}/>
             </Fragment>
             <FloatingWhatsApp
-                phoneNumber={'00393931518521'}
+                phoneNumber={'+393931518521'}
                 accountName={'Stefano 🎸'}
                 statusMessage={t('whatsApp.repliesWithinHour')}
                 chatMessage={t('whatsApp.helloThere')}
