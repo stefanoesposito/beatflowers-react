@@ -9,8 +9,6 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
     const {t} = useTranslation()
 
 
-    console.log(isLoading)
-
     return (
         <section className="schedule-section section-padding" id="section_4">
             <div className="container">

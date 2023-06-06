@@ -83,7 +83,7 @@ function App() {
                 statusMessage={t('whatsApp.repliesWithinHour')}
                 chatMessage={t('whatsApp.helloThere')}
                 placeholder={t('whatsApp.typeAMessage')}
-                buttonStyle={{transform: 'scale(0.7)'}}
+                buttonStyle={{transform: 'scale(0.8)', bottom: 10, right: 10}}
                 avatar={Stef}
                 allowClickAway
                 allowEsc
