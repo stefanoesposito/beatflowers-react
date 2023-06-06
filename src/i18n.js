@@ -47,6 +47,11 @@ const resources = {
                 'Decline': 'I decline',
                 'OK': 'OK'
             },
+            whatsApp: {
+                "helloThere": "Hello there! 🤝 \nHow can I help?",
+                "repliesWithinHour": "Typically replies within 1 hour",
+                "typeAMessage": "Type a message…",
+            },
         },
     },
     'it': {
@@ -90,6 +95,11 @@ const resources = {
                 'Text': 'Questo sito web utilizza i cookie per migliorare l\'esperienza dell\'utente.',
                 'Decline': 'Non accetto',
                 'OK': 'OK'
+            },
+            whatsApp: {
+                "helloThere": "Ciao! 🤝 \nCome posso aiutarti?",
+                "repliesWithinHour": "Solitamente risponde entro 1 ora",
+                "typeAMessage": "Scrivi un messaggio...",
             }
         },
     },
@@ -134,6 +144,11 @@ const resources = {
                 'Text': 'Ce site web utilise des cookies pour améliorer l\'expérience utilisateur.',
                 'Decline': 'Je refuse',
                 'OK': 'OK'
+            },
+            whatsApp: {
+                "helloThere": "Bonjour ! 🤝 \nComment pouvons-nous vous aider ?",
+                "repliesWithinHour": "Réponses habituellement sous 1 heure",
+                "typeAMessage": "Écrire un message...",
             }
         },
     },
@@ -177,6 +192,11 @@ const resources = {
                 'Text': 'Este sitio web utiliza cookies para mejorar la experiencia del usuario.',
                 'Decline': 'No acepto',
                 'OK': 'OK'
+            },
+            whatsApp: {
+                "helloThere": "¡Hola! 🤝 \n¿En qué podemos ayudarte?",
+                "repliesWithinHour": "Normalmente respondemos en 1 hora",
+                "typeAMessage": "Escribe un mensaje...",
             }
         },
     },

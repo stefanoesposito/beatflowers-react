@@ -1,6 +1,7 @@
 import React from 'react'
 import {useTranslation} from 'react-i18next'
 
+
 const About = () => {
     const {t} = useTranslation()
 
@@ -37,9 +38,7 @@ const About = () => {
 
                             <div className="about-text-info d-flex">
                                 <div className="d-flex">
-                                    <a className={'about-text-icon'} href="#section_6">
-                                        <i className="text-white bi-whatsapp"></i>
-                                    </a>
+                                    <i className="about-text-icon text-white bi-whatsapp"></i>
                                 </div>
 
                                 <div className="ms-4">

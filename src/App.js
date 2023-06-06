@@ -11,7 +11,9 @@ import LiveGigs from './components/LiveGigs'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import Header from './components/Header'
-import CookieConsent from "react-cookie-consent";
+import CookieConsent from 'react-cookie-consent'
+import Stef from './images/Stefano.jpeg'
+import {FloatingWhatsApp} from 'react-floating-whatsapp'
 
 function App() {
     const {t, i18n} = useTranslation()
@@ -55,8 +57,8 @@ function App() {
                 buttonText={t('cookieStrip.OK')}
                 declineButtonText={t('cookieStrip.Decline')}
                 cookieName="myAwesomeCookieName2"
-                style={{ background: "#2B373B" }}
-                buttonStyle={{ color: "#4e503b", fontSize: 13 }}
+                style={{background: '#2B373B'}}
+                buttonStyle={{color: '#4e503b', fontSize: 13}}
                 expires={150}
                 enableDeclineButton
             >
@@ -69,11 +71,22 @@ function App() {
                     <HeroSection/>
                     <About/>
                     <MeetTheBand/>
-                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent} selectedLanguage={selectedLanguage} isLoading={isLoading} />
+                    <LiveGigs futureEvents={futureEvents} pastEvents={pastEvents} todayEvent={todayEvent}
+                              selectedLanguage={selectedLanguage} isLoading={isLoading}/>
                     <Videos/>
                 </main>
                 <Footer currentYear={currentYear}/>
             </Fragment>
+            <FloatingWhatsApp
+                phoneNumber={'00393931518521'}
+                accountName={'Stefano 🎸'}
+                statusMessage={t('whatsApp.repliesWithinHour')}
+                chatMessage={t('whatsApp.helloThere')}
+                placeholder={t('whatsApp.typeAMessage')}
+                avatar={Stef}
+                allowClickAway
+                allowEsc
+            />
         </>
     )
 }
