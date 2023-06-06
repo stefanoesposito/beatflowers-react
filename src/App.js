@@ -67,9 +67,6 @@ const theme = createTheme({
     const pastEvents = gigs.pastEvents || []
     const todayEvent = gigs.todayEvent || null
 
-
-    console.log(isMobile)
-
     return (
         <>
             <ThemeProvider theme={theme}>
