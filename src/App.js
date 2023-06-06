@@ -78,11 +78,12 @@ function App() {
                 <Footer currentYear={currentYear}/>
             </Fragment>
             <FloatingWhatsApp
-                phoneNumber={'+393931518521'}
+                phoneNumber="+393931518521"
                 accountName={'Stefano 🎸'}
                 statusMessage={t('whatsApp.repliesWithinHour')}
                 chatMessage={t('whatsApp.helloThere')}
                 placeholder={t('whatsApp.typeAMessage')}
+                buttonStyle={{transform: 'scale(0.7)'}}
                 avatar={Stef}
                 allowClickAway
                 allowEsc
