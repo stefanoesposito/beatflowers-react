@@ -1,5 +1,6 @@
 import React from 'react'
 import {useTranslation} from 'react-i18next'
+import mapIcon from '../images/icons/google-maps.svg'
 
 const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMaps, isEven, venueLogo}) => {
     const {t} = useTranslation()
@@ -30,7 +31,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 </div>
                 <p className="mb-2">{t('Start')} {timeGig}</p>
                 <a href={venueMaps} target="_blank" rel="noopener noreferrer">
-                    <span style={{fontSize: 40, color: '#F8CB2E', position: 'relative', zIndex: 2}} className="bi bi-geo-alt-fill"></span>
+                    <img style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
                 </a>
                 <div className="section-overlay"></div>
             </td>
