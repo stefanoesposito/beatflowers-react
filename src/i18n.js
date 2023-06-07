@@ -20,7 +20,7 @@ const resources = {
             'yourAmazingLiveExperience': 'Your amazing live experience with us!',
             'upcomingLiveDates': 'Upcoming live dates',
             'Date': 'Date',
-            'Location': 'Location',
+            'Location': 'Venue',
             'Links': 'Links',
             'Start': 'Start:',
             'PastGigs': 'Past live gigs',
