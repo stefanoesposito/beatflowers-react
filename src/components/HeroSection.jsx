@@ -36,7 +36,7 @@ const HeroSection = () => {
                             <ul className="social-icon d-flex align-items-center justify-content-center">
                                 <span className="text-white me-3">{t('Follow')}:</span>
 
-                                <li className="social-icon-item">
+                                <li className="social-icon-item facebook-link">
                                     <a
                                         href="https://facebook.com/people/Beat-FlowerS/100063526721631"
                                         target="_blank"
@@ -47,7 +47,7 @@ const HeroSection = () => {
                                     </a>
                                 </li>
 
-                                <li className="social-icon-item">
+                                <li className="social-icon-item instagram-link">
                                     <a
                                         href="https://instagram.com/beat.flowers"
                                         target="_blank"
@@ -58,7 +58,7 @@ const HeroSection = () => {
                                     </a>
                                 </li>
 
-                                <li className="social-icon-item">
+                                <li className="social-icon-item youtube-link">
                                     <a
                                         href="https://www.youtube.com/@beat.flowers"
                                         target="_blank"
@@ -69,7 +69,7 @@ const HeroSection = () => {
                                     </a>
                                 </li>
 
-                                <li className="social-icon-item">
+                                <li className="social-icon-item tiktok-link">
                                     <a
                                         href="https://www.tiktok.com/@beat.flowers"
                                         target="_blank"

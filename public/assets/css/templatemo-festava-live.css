@@ -852,10 +852,8 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
-  font-size: var(--copyright-font-size);
   display: block;
   margin-right: 10px;
   text-align: center;
@@ -868,6 +866,67 @@ strong {
 .social-icon-link:hover {
   background: var(--primary-color);
   color: var(--white-color);
+}
+
+.facebook-link {
+  background-color: #1877F2;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.instagram-link {
+  background: linear-gradient(45deg, #fd5, #ff543e, #c837ab, #5851db, #405de6);
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.youtube-link {
+  background-color: #FF0000;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tiktok-link {
+  background-color: #000000;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tiktok-link-footer {
+  color: #1a1e21;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
 }
 
 .social-icon-link span {
