@@ -864,7 +864,6 @@ strong {
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
   color: var(--white-color);
 }
 
