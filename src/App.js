@@ -102,7 +102,9 @@ const theme = createTheme({
                     chatMessage={t('whatsApp.helloThere')}
                     placeholder={t('whatsApp.typeAMessage')}
                     buttonStyle={{transform: 'scale(0.8)', bottom: isMobile ? 10 : 50, right: isMobile ? 10 : 50}}
+                    chatboxStyle={{bottom: isMobile ? 80 : 130}}
                     avatar={Stef}
+                    messageDelay={1}
                     allowClickAway
                     allowEsc
                 />
