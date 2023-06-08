@@ -945,6 +945,10 @@ strong {
   }
 }
 
+.flag {
+  padding: 4px 0;
+}
+
 
 /*---------------------------------------
   RESPONSIVE STYLES
