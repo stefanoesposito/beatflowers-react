@@ -17,7 +17,9 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
                         {todayEvent !== null &&
                             (
                                 <div>
-                                    <h2 className="text-white mb-4">{t('Tonight')}</h2>
+                                    <h2 className="ribbon mb-4">
+                                        <span className="text"><strong className="bold">{t('Tonight')}</strong></span>
+                                    </h2>
                                     <h3 className={'text-white mb-lg-4'}>Live @ {todayEvent?.venueName}</h3>
                                     <div style={{margin: '0 auto', marginBottom: 40}}>
                                         <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
