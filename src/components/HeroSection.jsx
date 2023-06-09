@@ -21,10 +21,6 @@ const HeroSection = () => {
                     </div>
 
                     <div className="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
-                        <div className="date-wrap">
-                            <h5 className="text-white"></h5>
-                        </div>
-
                         <div className="location-wrap mx-auto py-3 py-lg-0">
                             <h5 className="text-white">
                                 <i className="custom-icon bi-geo-alt me-2"></i>
