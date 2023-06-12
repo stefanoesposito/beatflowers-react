@@ -16,6 +16,18 @@ const Videos = () => {
                         <iframe
                             width="100%"
                             height="315"
+                            src="https://www.youtube.com/embed/OPNwFwallZk"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+
+                    <div className="col-lg-6 col-12 mb-lg-4">
+                        <iframe
+                            width="100%"
+                            height="315"
                             src="https://www.youtube.com/embed/-U0Eqo_ZbpU"
                             title="YouTube video player"
                             frameBorder="0"
@@ -53,6 +65,18 @@ const Videos = () => {
                             width="100%"
                             height="315"
                             src="https://www.youtube.com/embed/1U7nGymJ8XE"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+
+                    <div className="col-lg-6 col-12 mt-4 mt-lg-0">
+                        <iframe
+                            width="100%"
+                            height="315"
+                            src="https://www.youtube.com/watch?v=hVCZRIIlWIs"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
