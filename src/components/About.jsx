@@ -14,6 +14,13 @@ const About = () => {
                             <h2 className="text-white mb-4">
                                 {t('aBeatlesCoverTrioTitle')}
                             </h2>
+                            <img
+                                src="assets/images/beatflowers-beatles-monet-min.png"
+                                className="about-image img-fluid"
+                                alt=""
+                            />
+
+                            <h6 className="text-white mt-4">{t('beatlesImpressionists')}</h6>
 
                             <p className="text-white">
                                 {t('aBeatlesCoverTrioDescription')}
