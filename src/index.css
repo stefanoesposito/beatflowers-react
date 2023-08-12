@@ -51,6 +51,30 @@ code {
     z-index: 2;
 }
 
+.circularVenueMap {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #2d85eb;
+    background-color: white;
+    margin: 10px auto;
+    z-index: 2;
+}
+
+.circularVenueMapRow {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #2d85eb;
+    background-color: white;
+    margin: 10px auto;
+    z-index: 2;
+}
+
 @media screen and (min-width: 600px) {
     .dateCalendar {
         width: 85px;

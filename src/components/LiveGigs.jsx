@@ -3,6 +3,7 @@ import DateRow from './DateRow'
 import {Button, Group, Loader, Modal, ScrollArea} from '@mantine/core'
 import {useDisclosure} from '@mantine/hooks'
 import {useTranslation} from 'react-i18next'
+import mapIcon from '../images/icons/google-maps.svg'
 
 const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoading}) => {
     const [opened, {open, close}] = useDisclosure(false)
@@ -21,14 +22,18 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
                                         <span className="text"><strong className="bold">{t('Tonight')}</strong></span>
                                     </h2>
                                     <h3 className={'text-white mb-lg-4'}>Live @ {todayEvent?.venueName}</h3>
-                                    <div style={{margin: '0 auto', marginBottom: 40}}>
+                                    <div style={{margin: '0 auto', marginBottom: 20}}>
                                         <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
                                             <img
                                                 src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}
                                                 alt="" style={{width: '90%'}}/>
                                         </a>
                                     </div>
-
+                                    <div style={{margin: '0 auto', width: '90%', marginBottom: 40}}>
+                                        <a href={todayEvent?.venueMaps} target="_blank" rel="noopener noreferrer">
+                                            <img className={'circularVenueMap'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
+                                        </a>
+                                    </div>
                                 </div>
                             )}
 

@@ -31,7 +31,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 </div>
                 <p className="mb-2">{t('Start')} {timeGig}</p>
                 <a href={venueMaps} target="_blank" rel="noopener noreferrer">
-                    <img style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
+                    <img className={'circularVenueMapRow'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
                 </a>
                 <div className="section-overlay"></div>
             </td>
