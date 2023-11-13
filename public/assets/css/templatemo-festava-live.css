@@ -675,10 +675,13 @@ strong {
   background-size: cover;
 }
 .table-responsive {
-	filter: drop-shadow(2px 2px 4px #606060);
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(2px 2px 4px #606060);
 }
 
 .schedule-table {
+  width: auto;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
