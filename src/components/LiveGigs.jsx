@@ -26,7 +26,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
                                         <a href={todayEvent?.venueLink} target="_blank" rel="noopener noreferrer">
                                             <img
                                                 src={`https://drive.google.com/uc?export=view&id=${todayEvent?.gigPoster}`}
-                                                alt="" style={{width: '90%'}}/>
+                                                alt="" className={'todayGigPoster'} />
                                         </a>
                                     </div>
                                     <div style={{margin: '0 auto', width: '90%', marginBottom: 40}}>

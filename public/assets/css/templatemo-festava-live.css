@@ -839,6 +839,10 @@ strong {
   font-size: var(--copyright-font-size);
 }
 
+.todayGigPoster {
+  width: 90%;
+}
+
 
 /*---------------------------------------
   SOCIAL ICON
@@ -1014,6 +1018,10 @@ strong {
 @media screen and (min-width: 767px) {
   .text{
     min-width: 620px;
+  }
+
+  .todayGigPoster {
+    width: 60%;
   }
 }
 
