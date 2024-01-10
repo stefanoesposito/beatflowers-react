@@ -567,7 +567,53 @@ const resources = {
                 'OK': 'ठीक है'
             }
         }
-    }
+    },
+    'zh': {
+        translation: {
+            'letsBegin': '让我们开始',
+            'Follow': '关注',
+            'aBeatlesCoverTrioTitle': '一个独特声音的披头士乐队翻唱三人组',
+            'aBeatlesCoverTrioDescription': 'Beat FlowerS 是一个在意大利那不勒斯成立的披头士乐队原声三人组。他们用独特的方式演奏这支传奇乐队的歌曲 - 使用吉他、大提琴和极简鼓点，创造出既熟悉又新鲜的声音。',
+            'whoTheyAre': '他们是谁',
+            'whoTheyAreDescription': '这个三人组由 Patrizio Buonaiuto 担任主唱和极简鼓点，Marco Di Palo 负责大提琴和人声，Stefano Esposito 负责原声吉他和人声。他们一起创造了一种真正属于自己的声音。',
+            'aUniqueTitle': '独特的现场体验',
+            'beatlesImpressionists': '披头士的印象派',
+            'aUniqueDescription': 'Beat FlowerS 与其他披头士翻唱乐队的不同之处在于他们在编曲中使用大提琴。这为音乐增添了一种深度和丰富性，这在传统摇滚乐队中并不常见。他们极简鼓点的使用也让人声和乐器更加突出，创造了一种既亲密又强大的剥离感声音。如果你是披头士的粉丝，并且正在寻找他们经典歌曲的新演绎，那么 Beat FlowerS 绝对值得一试！',
+            'meetTheBand': '见见乐队',
+            'hireUs': '聘请我们！',
+            'yourAmazingLiveExperience': '与我们一起的惊艳现场体验！',
+            'upcomingLiveDates': '即将到来的现场日期',
+            'Date': '日期',
+            'Location': '场地',
+            'Links': '链接',
+            'Start': '开始：',
+            'PastGigs': '过去的现场演出',
+            'Tonight': '今晚',
+            'noFutureEventsSoFar': '到目前为止还没有未来的活动！ :)',
+            'Install': '安装',
+            menu: {
+                'Home': '首页',
+                'About': '关于',
+                'Band': '乐队',
+                'Live': '现场',
+                'Videos': '视频',
+                'Contacts': '联系方式'
+            },
+            band: {
+                'Name': '姓名：',
+                'Instrument': '乐器：',
+                'InstrumentPat': '人声, 极简鼓点',
+                'InstrumentMarco': '大提琴和人声',
+                'InstrumentStefano': '原声吉他和人声',
+            },
+            cookieStrip: {
+                'Text': '本网站使用cookie来增强用户体验。',
+                'Decline': '我拒绝',
+                'OK': '好的'
+            },
+        },
+    },
+
 }
 
 

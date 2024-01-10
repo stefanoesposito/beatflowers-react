@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import {Select, MenuItem} from '@mui/material'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
-const supportedLanguages = ['en', 'it', 'fr', 'es', 'de', 'nl', 'pt', 'cs', 'sv', 'pl', 'ja', 'hi'];
+const supportedLanguages = ['en', 'it', 'fr', 'es', 'de', 'nl', 'pt', 'cs', 'sv', 'pl', 'ja', 'hi', 'zh'];
 
 function LanguageSwitcher() {
     const { i18n } = useTranslation();
@@ -27,6 +27,7 @@ function LanguageSwitcher() {
             <MenuItem value="pl" title={'Polski'} aria-label={'Zmień język na Polski'}><span className="flag fi fi-pl"></span></MenuItem>
             <MenuItem value="ja" title={'日本'} aria-label={'言語を日本語に切り替える'}><span className="flag fi fi-jp"></span></MenuItem>
             <MenuItem value="hi" title={'हिंदी'} aria-label={'भाषा हिंदी में बदलें'}><span className="flag fi fi-in"></span></MenuItem>
+            <MenuItem value="zh" title={'中文'} aria-label={'切换语言为中文'}><span className="flag fi fi-cn"></span></MenuItem>
 
         </Select>
     );

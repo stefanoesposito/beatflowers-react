@@ -130,6 +130,14 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
                                                             weekday: 'long',
                                                         })
                                                         break
+                                                    case 'zh':
+                                                        month = dateGigPlus
+                                                            .toLocaleString('zh-CN', {month: 'long'})
+                                                            .toUpperCase()
+                                                        day = dateGigPlus.toLocaleString('zh-CN', {
+                                                            weekday: 'long',
+                                                        })
+                                                        break
                                                     case 'cs':
                                                         month = dateGigPlus
                                                             .toLocaleString('cs-CZ', {month: 'long'})
