@@ -25,11 +25,11 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 <a href={venueLink} target="_blank" rel="noopener noreferrer">
                     <h3>{venueName}</h3>
                 </a>
-                <div className={'circularVenueLogo'}>
-                    <a href={venueLink} target="_blank" rel="noopener noreferrer">
-                        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt={venueName} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    </a>
-                </div>
+                {/*<div className={'circularVenueLogo'}>*/}
+                {/*    <a href={venueLink} target="_blank" rel="noopener noreferrer">*/}
+                {/*        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt={`${venueName} logo`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />*/}
+                {/*    </a>*/}
+                {/*</div>*/}
                 <p className="mb-2">{t('Start')} {timeGig}</p>
                 <a href={venueMaps} target="_blank" rel="noopener noreferrer">
                     <img alt="Map" className={'circularVenueMapRow'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
