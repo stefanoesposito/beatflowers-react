@@ -23,7 +23,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
             </th>
             <td className={`table-background-image-wrap ${isEven ? 'pop-background-image' : 'band-background-image'}`}>
                 <a href={venueLink} target="_blank" rel="noopener noreferrer">
-                    <h3>{venueName}</h3>
+                    <h4>{venueName}</h4>
                 </a>
                 {/*<div className={'circularVenueLogo'}>*/}
                 {/*    <a href={venueLink} target="_blank" rel="noopener noreferrer">*/}

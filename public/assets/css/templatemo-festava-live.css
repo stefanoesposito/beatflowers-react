@@ -748,7 +748,7 @@ strong {
   position: relative;
 }
 
-.schedule-table h3,
+.schedule-table h4,
 .schedule-table p {
   color: var(--white-color);
   position: relative;
