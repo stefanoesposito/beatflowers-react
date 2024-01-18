@@ -27,7 +27,7 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 </a>
                 <div className={'circularVenueLogo'}>
                     <a href={venueLink} target="_blank" rel="noopener noreferrer">
-                        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt="Venue Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt={venueName} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </a>
                 </div>
                 <p className="mb-2">{t('Start')} {timeGig}</p>
