@@ -5,6 +5,7 @@ import mapIcon from '../images/icons/google-maps.svg'
 const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMaps, isEven, venueLogo}) => {
     const {t} = useTranslation()
 
+    console.log(venueLogo)
     return (
         <tr>
             <th scope="row" className={isEven ? "clearerTh" : ""}>
@@ -26,12 +27,12 @@ const DateRow = ({month, dayNumber, day, venueLink, venueName, timeGig, venueMap
                 </a>
                 <div className={'circularVenueLogo'}>
                     <a href={venueLink} target="_blank" rel="noopener noreferrer">
-                        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`https://drive.google.com/uc?export=view&id=${venueLogo}`} alt="Venue Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </a>
                 </div>
                 <p className="mb-2">{t('Start')} {timeGig}</p>
                 <a href={venueMaps} target="_blank" rel="noopener noreferrer">
-                    <img className={'circularVenueMapRow'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
+                    <img alt="Map" className={'circularVenueMapRow'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
                 </a>
                 <div className="section-overlay"></div>
             </td>
