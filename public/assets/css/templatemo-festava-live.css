@@ -874,6 +874,16 @@ strong {
   color: var(--white-color);
 }
 
+.mygigzLogo {
+  border-radius: 50%;
+  display: block;
+  align-self: center;
+  width: 35px;
+  height: 36px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
 .facebook-link {
   background-color: #1877F2;
   border-radius: 50%;
@@ -940,6 +950,10 @@ strong {
 }
 
 .social-icon-link span:hover::before{
+  animation: spinAround 2s linear infinite;
+}
+
+.social-icon-link img:hover{
   animation: spinAround 2s linear infinite;
 }
 

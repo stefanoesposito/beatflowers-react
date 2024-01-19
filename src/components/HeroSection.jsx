@@ -1,5 +1,6 @@
 import React from 'react'
 import {useTranslation} from 'react-i18next'
+import MyGigzLogo from '../images/MiGigz-logo-social.jpg'
 
 const HeroSection = () => {
     const {t} = useTranslation()
@@ -32,6 +33,16 @@ const HeroSection = () => {
                             <ul className="social-icon d-flex align-items-center justify-content-center">
                                 <span className="text-white me-3">{t('Follow')}:</span>
 
+                                <li className="social-icon-item">
+                                    <a
+                                        href="https://www.mygigz.live/beatflowers"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="social-icon-link"
+                                    >
+                                        <img src={MyGigzLogo} alt={MyGigzLogo} className="mygigzLogo"></img>
+                                    </a>
+                                </li>
                                 <li className="social-icon-item facebook-link">
                                     <a
                                         href="https://facebook.com/people/Beat-FlowerS/100063526721631"
