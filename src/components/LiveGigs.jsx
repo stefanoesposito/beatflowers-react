@@ -31,7 +31,7 @@ const LiveGigs = ({futureEvents, pastEvents, todayEvent, selectedLanguage, isLoa
                                     </div>
                                     <div style={{margin: '0 auto', width: '90%', marginBottom: 40}}>
                                         <a href={todayEvent?.venueMaps} target="_blank" rel="noopener noreferrer">
-                                            <img className={'circularVenueMap'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} />
+                                            <img className={'circularVenueMap'} style={{ position: 'relative', zIndex: 2}} src={mapIcon} alt="" />
                                         </a>
                                     </div>
                                 </div>
