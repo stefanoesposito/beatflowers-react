@@ -10,6 +10,13 @@ const MeetTheBand = () => {
                 <div className="row justify-content-center">
                     <div className="col-12 text-center">
                         <h2 className="mb-4">{t("meetTheBand")}</h2>
+                        <div className="artists-thumb">
+                            <img
+                                src={`${process.env.PUBLIC_URL}/assets/images/beat-flowers-nabilah.jpeg`}
+                                alt="Patrizio Buonaiuto - Vocals, Minimal Drums"
+                                className="artists-image img-fluid"
+                            />
+                        </div>
                     </div>
 
                     <div className="col-lg-5 col-12">
