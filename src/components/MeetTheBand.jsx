@@ -31,13 +31,17 @@ const MeetTheBand = () => {
 
                             <div className="artists-hover">
                                 <p>
-                                    <strong>{t("band.Name")}</strong>
-                                    Patrizio Buonaiuto
+                                    <strong>
+                                        Patrizio Buonaiuto
+                                    </strong>
                                 </p>
 
                                 <p>
-                                    <strong>{t("band.Instrument")}</strong>
-                                    {t("band.InstrumentPat")}
+                                    <strong>
+                                        <i>
+                                            {t("band.InstrumentPat")}
+                                        </i>
+                                    </strong>
                                 </p>
                             </div>
                         </div>
@@ -55,13 +59,17 @@ const MeetTheBand = () => {
 
                             <div className="artists-hover">
                                 <p>
-                                    <strong>{t("band.Name")}</strong>
-                                    Marco Di Palo
+                                    <strong>
+                                        Marco Di Palo
+                                    </strong>
                                 </p>
 
                                 <p>
-                                    <strong>{t("band.Instrument")}</strong>
-                                    {t("band.InstrumentMarco")}
+                                    <strong>
+                                        <i>
+                                            {t("band.InstrumentMarco")}
+                                        </i>
+                                    </strong>
                                 </p>
                             </div>
                         </div>
@@ -75,13 +83,17 @@ const MeetTheBand = () => {
 
                             <div className="artists-hover">
                                 <p>
-                                    <strong>{t("band.Name")}</strong>
-                                    Stefano Esposito
+                                    <strong>
+                                        Stefano Esposito
+                                    </strong>
                                 </p>
 
                                 <p>
-                                    <strong>{t("band.Instrument")}</strong>
-                                    {t("band.InstrumentStefano")}
+                                    <strong>
+                                        <i>
+                                            {t("band.InstrumentStefano")}
+                                        </i>
+                                    </strong>
                                 </p>
                             </div>
                         </div>
