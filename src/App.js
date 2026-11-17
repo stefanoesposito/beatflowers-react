@@ -1,4 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react'
+import Tips from './components/Tips'
 import axios from 'axios'
 import './index.css'
 import Footer from './components/Footer'
@@ -19,6 +20,7 @@ import {useMediaQuery} from '@mui/material'
 
 
 function App() {
+    const isTipsPage = window.location.pathname.replace(/\/$/, '') === '/tips'
 const theme = createTheme({
     breakpoints: {
         values: {
@@ -66,6 +68,8 @@ const theme = createTheme({
     const futureEvents = gigs.futureEvents || []
     const pastEvents = gigs.pastEvents || []
     const todayEvent = gigs.todayEvent || null
+
+    if (isTipsPage) return <Tips/>
 
     return (
         <>
