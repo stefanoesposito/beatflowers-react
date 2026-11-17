@@ -74,7 +74,7 @@ const NavBar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/tips">Tips ☕</a>
+                            <a className="nav-link" href="/tips">{t('menu.Tips')}</a>
                         </li>
 
                         <li className="nav-item" onClick={handleAddToHomeScreen}>
