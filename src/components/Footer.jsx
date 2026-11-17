@@ -90,6 +90,10 @@ const Footer = ({currentYear}) => {
                                 <a href="#section_6" className="site-footer-link">{t('menu.Contacts')}</a>
                             </li>
 
+                            <li className="site-footer-link-item">
+                                <a href="/tips" className="site-footer-link">Tips ☕</a>
+                            </li>
+
                             <li className="site-footer-link-item" onClick={handleAddToHomeScreen}>
                                 <i className="nav-link click-scroll text-white bi-download" style={{cursor: 'pointer'}} title={t('Install')}></i>
                             </li>
