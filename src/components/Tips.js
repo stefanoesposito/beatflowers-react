@@ -13,7 +13,7 @@ export default function Tips() {
       <div className="bf-tips__content">
         <a className="bf-tips__home" href="/" aria-label="Back to Beat FlowerS website">← BACK TO THE MUSIC</a>
         <p className="bf-tips__eyebrow">PEACE · LOVE · LIVE MUSIC</p>
-        <h1 className="bf-tips__title">BEAT <span>FlowerS</span></h1>
+        <h1 className="bf-tips__title beatles">BeaT FlowerS</h1>
         <div className="bf-tips__divider" aria-hidden="true">✳ ✳ ✳</div>
         <h2>Keep the music <em>blooming!</em></h2>
         <p className="bf-tips__intro">Enjoyed our music? Leave a little love in our digital tip jar. Every contribution helps the flowers grow. ☮</p>
