@@ -32,3 +32,9 @@
 
 /* Reuse the exact Beat FlowerS display font already loaded by the main site. */
 
+
+.bf-tips__topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:28px}
+.bf-tips__topbar .bf-tips__home{margin-bottom:0;text-align:left}
+.bf-tips__topbar .MuiOutlinedInput-root{background:#fff9e9;border-radius:12px;min-width:76px}
+.bf-tips__topbar .MuiSelect-select{padding:9px 28px 9px 12px}
+@media(max-width:600px){.bf-tips__topbar{margin-bottom:25px}}
