@@ -1,5 +1,6 @@
 import i18n from 'i18next'
 import {initReactI18next} from 'react-i18next'
+import {tipsTranslations} from './tipsTranslations'
 
 const userLang = navigator.language || navigator.languages[0]
 const mainLanguage = userLang.split('-')[0]
@@ -616,6 +617,13 @@ const resources = {
 
 }
 
+
+Object.entries(tipsTranslations).forEach(([language, tips]) => {
+    if (resources[language]) {
+        resources[language].translation.tips = tips
+        resources[language].translation.menu.Tips = tips.menu
+    }
+})
 
 i18n.use(initReactI18next).init({
     resources,
