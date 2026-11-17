@@ -91,7 +91,7 @@ const Footer = ({currentYear}) => {
                             </li>
 
                             <li className="site-footer-link-item">
-                                <a href="/tips" className="site-footer-link">Tips ☕</a>
+                                <a href="/tips" className="site-footer-link">{t('menu.Tips')}</a>
                             </li>
 
                             <li className="site-footer-link-item" onClick={handleAddToHomeScreen}>
