@@ -6,7 +6,7 @@
 .bf-tips__home{display:inline-block;color:#643b2e;font-size:11px;font-weight:800;letter-spacing:2px;text-decoration:none;margin-bottom:34px}
 .bf-tips__home:hover{text-decoration:underline}
 .bf-tips__eyebrow{font-size:12px;font-weight:800;letter-spacing:4px;color:#b34e35;margin:0 0 12px}
-.bf-tips__title{font-family:'Righteous',Georgia,serif;font-size:clamp(50px,10vw,86px);line-height:1;letter-spacing:-2px;color:#a63e32;margin:0;text-shadow:3px 4px 0 #f6b752}
+.bf-tips__title{font-size:clamp(48px,10vw,86px);line-height:1.2;letter-spacing:0;color:#a63e32;margin:0;text-shadow:3px 4px 0 #f6b752}
 .bf-tips__title span{display:block;color:#387765;font-size:.86em}
 .bf-tips__divider{color:#d66c43;font-size:25px;letter-spacing:14px;margin:16px 0 10px}
 .bf-tips h2{font-family:'Righteous',Georgia,serif;font-size:clamp(27px,5vw,39px);font-weight:400;margin:12px 0;color:#4e372b}
@@ -29,3 +29,6 @@
 .bf-tips__flower--right{top:510px;right:-85px;color:#52876a;transform:rotate(20deg)}
 @media(max-width:600px){.bf-tips{padding:22px 18px 45px}.bf-tips__home{margin-bottom:27px}.bf-tips__flower{font-size:110px;opacity:.25}.bf-tips__flower--left{left:-60px}.bf-tips__flower--right{right:-60px}.bf-tips__card{box-shadow:6px 7px 0 #d66c43;padding:23px 20px}.bf-tips__intro{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.bf-tips__button{transition:none}}
+
+/* Reuse the exact Beat FlowerS display font already loaded by the main site. */
+
